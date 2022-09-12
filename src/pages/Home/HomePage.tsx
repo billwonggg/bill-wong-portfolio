@@ -1,5 +1,7 @@
+import { motion } from "framer-motion";
+
 const HomePage = () => {
-  return <div></div>;
+  return <motion.div></motion.div>;
 };
 
 export default HomePage;
