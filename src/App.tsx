@@ -9,7 +9,7 @@ import { AnimatePresence } from "framer-motion";
 const App = () => {
   return (
     <BrowserRouter>
-      <AnimatePresence initial={false}>
+      <AnimatePresence exitBeforeEnter>
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/about" element={<AboutPage />} />
