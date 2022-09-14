@@ -1,6 +1,6 @@
 import { Technology } from "./Technology";
 
-export interface Project {
+export default interface Project {
   title: string;
   headline?: string;
   description: string;

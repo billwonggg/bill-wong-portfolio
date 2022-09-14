@@ -1,6 +1,6 @@
 import { Technology } from "./Technology";
 
-export interface Experience {
+export default interface Experience {
   jobTitle: string;
   company: string;
   location?: string;
