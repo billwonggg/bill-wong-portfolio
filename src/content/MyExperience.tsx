@@ -1,4 +1,4 @@
-import Experience from "../src/models/Experience";
+import Experience from "../models/Experience";
 
 const MyExperience: Experience[] = [
   {

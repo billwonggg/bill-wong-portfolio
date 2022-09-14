@@ -1,4 +1,4 @@
-import Project from "../src/models/Project";
+import Project from "../models/Project";
 
 const MyProjects: Project[] = [
   {

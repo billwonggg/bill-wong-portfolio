@@ -1,4 +1,4 @@
-import Portfolio from "../src/models/Portfolio";
+import Portfolio from "../models/Portfolio";
 import MyEducation from "./MyEducation";
 import MyExperience from "./MyExperience";
 import MyHomeProfile from "./MyHomeProfile";

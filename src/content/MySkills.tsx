@@ -1,4 +1,4 @@
-import { Technology } from "../src/models/Technology";
+import { Technology } from "../models/Technology";
 
 const MySkills: Technology[] = ["C", "C++", "Java", "Python"];
 

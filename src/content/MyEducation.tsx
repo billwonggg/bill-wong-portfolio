@@ -1,4 +1,4 @@
-import Education from "../src/models/Education";
+import Education from "../models/Education";
 
 const MyEducation: Education = {
   degree: "Bachelor of Engineering (Honours), Software Engineering",
