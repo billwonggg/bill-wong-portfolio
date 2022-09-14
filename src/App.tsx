@@ -5,6 +5,7 @@ import HomePage from "./pages/Home/HomePage";
 import ProjectPage from "./pages/Projects/ProjectPage";
 import SkillsPage from "./pages/Skills/SkillsPage";
 import { AnimatePresence } from "framer-motion";
+import "./styles/global.scss";
 
 const App = () => {
   return (
