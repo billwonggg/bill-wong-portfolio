@@ -1,11 +1,11 @@
 @import "../../styles/mixins.scss";
 
 .homepage {
-    @include flex-center(column);
-    min-height: 100vh;
-    background-color: rgb(15, 15, 15);
+  @include flex-center(column);
+  min-height: 100vh;
+  background-color: rgb(15, 15, 15);
 }
 
 .logo {
-    font-size: 50px;
+  font-size: 50px;
 }

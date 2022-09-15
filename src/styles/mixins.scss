@@ -1,6 +1,6 @@
 @mixin flex-center($orientation) {
-    display: flex;
-    flex-direction: $orientation;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: $orientation;
+  justify-content: center;
+  align-items: center;
 }
