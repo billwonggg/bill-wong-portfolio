@@ -11,8 +11,10 @@ const SkillCloud = () => {
           fadeIn: 1500,
           noSelect: true,
           maxSpeed: 0.01,
+          minSpeed: 0.005,
           zoomMin: 1,
           zoomMax: 1,
+          initial: [0.4, 0.4],
         }}
       >
         {MySkills.map((icon) =>
