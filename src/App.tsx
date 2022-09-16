@@ -10,7 +10,7 @@ import "./styles/global.scss";
 const App = () => {
   return (
     <BrowserRouter>
-      <AnimatePresence exitBeforeEnter>
+      <AnimatePresence mode="wait">
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/about" element={<AboutPage />} />
