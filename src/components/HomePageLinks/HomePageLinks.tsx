@@ -7,8 +7,8 @@ import SkillsLink from "../Links/SkillsLink";
 const HomePageLinks = () => {
   const linkStyles: React.CSSProperties = {
     position: "relative",
-    bottom: "4px",
-    margin: "0px 20px",
+    bottom: "6px",
+    margin: "0px 50px",
   };
 
   return (
