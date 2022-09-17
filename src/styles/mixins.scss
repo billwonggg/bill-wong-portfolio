@@ -1,6 +1,30 @@
+@import "./constants.scss";
+
 @mixin flex-center($orientation) {
   display: flex;
   flex-direction: $orientation;
   justify-content: center;
   align-items: center;
+}
+
+@mixin link {
+  text-decoration: none;
+
+  &:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+  &:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: $text-color-primary;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
 }
