@@ -1,0 +1,6 @@
+@import "../../styles/mixins.scss";
+
+.projectslink {
+  @include link;
+  font-size: 1.2rem;
+}
