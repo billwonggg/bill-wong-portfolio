@@ -1,5 +1,4 @@
 import { motion } from "framer-motion";
-import { Link } from "react-router-dom";
 import HomeLink from "../../components/Links/HomeLink";
 import SkillCloud from "../../components/Skills/SkillCloud";
 import styles from "./SkillsPage.module.scss";
