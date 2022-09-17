@@ -12,10 +12,3 @@
 .linksInner {
   margin: 0 auto;
 }
-
-.link {
-  @include link;
-  position: relative;
-  bottom: 4px;
-  margin: 0px 20px;
-}
