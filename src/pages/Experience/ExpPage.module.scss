@@ -1,0 +1,10 @@
+@import "../../styles/mixins.scss";
+
+.expPage {
+  @include flex-center(column);
+  min-height: 100vh;
+}
+
+.expInner {
+  @include page-inner-setup;
+}
