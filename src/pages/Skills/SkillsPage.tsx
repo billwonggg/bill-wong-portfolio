@@ -16,7 +16,7 @@ const SkillsPage = () => {
         <HomeLink {...{ position: "absolute", top: "20px", left: 0 }} />
         <div className={styles.skillsText}>
           <h1>Skills</h1>
-          <p>Here are some of the skills that I can bring to the table.</p>
+          <p>Here are some skills that I can bring to the table! 😄</p>
         </div>
         <SkillCloud />
       </motion.div>
