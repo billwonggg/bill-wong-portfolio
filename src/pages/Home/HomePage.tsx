@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import styles from "./HomePage.module.scss";
 import ProfileCard from "../../components/HomeProfileCard/ProfileCard";
 import HomePageLinks from "../../components/HomePageLinks/HomePageLinks";
+import SocialLinks from "../../components/Socials/SocialLinks";
 
 const HomePage = () => {
   return (
@@ -14,6 +15,7 @@ const HomePage = () => {
       >
         <ProfileCard />
         <HomePageLinks />
+        <SocialLinks />
       </motion.div>
     </div>
   );
