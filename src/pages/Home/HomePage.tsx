@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import styles from "./HomePage.module.scss";
 import ProfileCard from "../../components/HomeProfileCard/ProfileCard";
+import HomePageLinks from "../../components/HomePageLinks/HomePageLinks";
 
 const HomePage = () => {
   return (
@@ -12,6 +13,7 @@ const HomePage = () => {
         transition={{ duration: 1, delay: 0.5 }}
       >
         <ProfileCard />
+        <HomePageLinks />
       </motion.div>
     </div>
   );
