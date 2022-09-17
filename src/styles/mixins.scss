@@ -7,6 +7,16 @@
   align-items: center;
 }
 
+@mixin page-inner-setup {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 90vw;
+  max-width: $inner-max-width;
+  min-height: 100vh;
+}
+
 @mixin link {
   text-decoration: none;
 
