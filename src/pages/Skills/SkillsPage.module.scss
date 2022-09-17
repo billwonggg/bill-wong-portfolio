@@ -7,9 +7,8 @@
 
 .skillsInner {
   position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  @include flex-center(column);
+  align-items: flex-start;
   min-height: 100vh;
 }
 
@@ -22,11 +21,4 @@
   p {
     font-size: 1.2rem;
   }
-}
-
-.homelink {
-  @include link;
-  position: absolute;
-  top: 20px;
-  font-size: 1.2rem;
 }

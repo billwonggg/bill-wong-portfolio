@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
+import HomeLink from "../../components/Links/HomeLink";
 import SkillCloud from "../../components/Skills/SkillCloud";
 import styles from "./SkillsPage.module.scss";
 
@@ -13,9 +14,7 @@ const SkillsPage = () => {
         transition={{ duration: 1, delay: 0.5 }}
         className={styles.skillsInner}
       >
-        <Link to="/" className={styles.homelink}>
-          Home
-        </Link>
+        <HomeLink {...{ position: "absolute", top: "20px", left: 0 }} />
         <div className={styles.skillsText}>
           <h1>Skills</h1>
           <p>Here are some of the skills that I can bring to the table.</p>
