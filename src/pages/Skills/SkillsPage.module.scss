@@ -3,5 +3,30 @@
 .skillspage {
   @include flex-center(column);
   min-height: 100vh;
-  // background-color: white;
+}
+
+.skillsInner {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.skillsText {
+  padding: 10px;
+  h1 {
+    font-size: 2.4rem;
+  }
+
+  p {
+    font-size: 1.2rem;
+  }
+}
+
+.homelink {
+  @include link;
+  position: absolute;
+  top: 20px;
+  font-size: 1.2rem;
 }
