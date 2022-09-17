@@ -1,0 +1,6 @@
+@import "../../styles/mixins.scss";
+
+.experienceLink {
+  @include link;
+  font-size: 1.2rem;
+}
