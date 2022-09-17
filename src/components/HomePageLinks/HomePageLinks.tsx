@@ -3,6 +3,7 @@ import styles from "./HomePageLinks.module.scss";
 import AboutLink from "../Links/AboutLink";
 import ProjectsLink from "../Links/ProjectsLink";
 import SkillsLink from "../Links/SkillsLink";
+import ExperienceLink from "../Links/ExperienceLink";
 
 const HomePageLinks = () => {
   const linkStyles: React.CSSProperties = {
@@ -16,6 +17,7 @@ const HomePageLinks = () => {
       <div className={styles.linksInner}>
         <AboutLink {...linkStyles} />
         <ProjectsLink {...linkStyles} />
+        <ExperienceLink {...linkStyles} />
         <SkillsLink {...linkStyles} />
       </div>
     </div>

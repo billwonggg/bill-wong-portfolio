@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import HomeLink from "../../components/Links/HomeLink";
-import SkillsLink from "../../components/Links/SkillsLink";
+import ExperienceLink from "../../components/Links/ExperienceLink";
 import styles from "./ProjectPage.module.scss";
 
 const ProjectPage = () => {
@@ -14,7 +14,7 @@ const ProjectPage = () => {
         className={styles.projectsInner}
       >
         <HomeLink {...{ position: "absolute", top: "20px", left: 0 }} />
-        <SkillsLink {...{ position: "absolute", top: "20px", right: 0 }} />
+        <ExperienceLink {...{ position: "absolute", top: "20px", right: 0 }} />
         Hello
       </motion.div>
     </div>

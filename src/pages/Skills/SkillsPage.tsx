@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import AboutLink from "../../components/Links/AboutLink";
 import HomeLink from "../../components/Links/HomeLink";
 import SkillCloud from "../../components/Skills/SkillCloud";
 import styles from "./SkillsPage.module.scss";
@@ -14,6 +15,7 @@ const SkillsPage = () => {
         className={styles.skillsInner}
       >
         <HomeLink {...{ position: "absolute", top: "20px", left: 0 }} />
+        <AboutLink {...{ position: "absolute", top: "20px", right: 0 }} />
         <div className={styles.skillsText}>
           <h1>Skills</h1>
           <p>Here are some skills that I can bring to the table! 😄</p>
