@@ -1,0 +1,10 @@
+@import "../../styles/mixins.scss";
+
+.projectspage {
+  @include flex-center(column);
+  min-height: 100vh;
+}
+
+.projectsInner {
+  @include page-inner-setup;
+}
