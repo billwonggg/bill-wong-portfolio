@@ -10,7 +10,7 @@ const SkillCloud = () => {
           dragControl: true,
           fadeIn: 1500,
           noSelect: true,
-          maxSpeed: 0.01,
+          maxSpeed: 0.008,
           minSpeed: 0.005,
           zoomMin: 1,
           zoomMax: 1,
