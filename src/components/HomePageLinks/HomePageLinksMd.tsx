@@ -9,14 +9,14 @@ import { IoClose } from "react-icons/io5";
 import { motion, AnimatePresence } from "framer-motion";
 
 const HomePageLinksMd = () => {
+  const [open, setOpen] = useState<boolean>(false);
+
   const linkStyles: React.CSSProperties = {
-    position: "relative",
+    width: "fit-content",
     bottom: "6px",
-    margin: "0px 40px",
     fontSize: "1.7rem",
     fontWeight: 700,
   };
-  const [open, setOpen] = useState<boolean>(false);
 
   return (
     <>
@@ -39,12 +39,10 @@ const HomePageLinksMd = () => {
             exit={{ y: "-100vh" }}
             transition={{ duration: 0.8 }}
           >
-            <div className={styles.linksInner}>
-              <AboutLink {...linkStyles} />
-              <ProjectsLink {...linkStyles} />
-              <ExperienceLink {...linkStyles} />
-              <SkillsLink {...linkStyles} />
-            </div>
+            <AboutLink {...linkStyles} />
+            <ProjectsLink {...linkStyles} />
+            <ExperienceLink {...linkStyles} />
+            <SkillsLink {...linkStyles} />
           </motion.div>
         )}
       </AnimatePresence>
