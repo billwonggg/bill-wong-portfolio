@@ -1,17 +1,16 @@
-// Screen breakpoints
+// Screen Breakpoints
 $xs: 0px;
 $sm: 600px;
 $md: 900px;
 $lg: 1200px;
 $xl: 1600px;
 
-// Page dimensions
-$inner-max-width: 800px;
-
-// Color
-$background-color: rgb(15, 15, 15);
-
 // Typography
+@import url("https://fonts.googleapis.com/css2?family=Lalezar&family=Noto+Sans:wght@400;700&family=Reem+Kufi+Fun:wght@600&display=swap");
+$font-profile-card: "Lalezar", sans-serif;
+$font-links: "Reem Kufi Fun", sans-serif;
+$font-text: "Noto Sans", sans-serif;
+
 $text-color-primary: rgb(207, 197, 175);
 $text-color-primary-hover: rgb(249, 211, 116);
 
@@ -22,3 +21,9 @@ $root-font-size: (
   $lg: 20px,
   $xl: 22px,
 );
+
+// Page dimensions
+$inner-max-width: 800px;
+
+// Page colors
+$background-color: rgb(15, 15, 15);
