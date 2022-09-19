@@ -12,15 +12,3 @@
 .linksInner {
   margin: 0 auto;
 }
-
-@media screen and (max-width: $md) {
-  .linkcontainer {
-    top: 20px;
-    bottom: auto;
-    flex-direction: row;
-  }
-
-  .linksInner {
-    margin: 0 20px;
-  }
-}
