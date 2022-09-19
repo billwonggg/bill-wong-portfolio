@@ -1,3 +1,10 @@
+// Screen breakpoints
+$xs: 400px;
+$sm: 576px;
+$md: 768px;
+$lg: 992px;
+$xl: 1200px;
+
 // Page dimensions
 $inner-max-width: 800px;
 
@@ -8,16 +15,11 @@ $background-color: rgb(15, 15, 15);
 $text-color-primary: rgb(207, 197, 175);
 $text-color-primary-hover: rgb(249, 211, 116);
 
-$font-size-xs: 8px;
-$font-size-sm: 12px;
-$font-size-md: 16px;
-$font-size-lg: 20px;
-$font-size-xl: 24px;
-
-// Screen breakpoints
-$xs: 400px;
-$sm: 576px;
-$md: 768px;
-$lg: 992px;
-$xl: 1200px;
-$xxl: 1400px;
+$root-font-size: (
+  null: 15px,
+  $xs: 16px,
+  $sm: 17px,
+  $md: 18px,
+  $lg: 19px,
+  $xl: 20px,
+);
