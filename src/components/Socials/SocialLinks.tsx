@@ -12,15 +12,17 @@ const SocialLinks = () => {
           rel="noreferrer"
           className={styles.github}
         >
-          <BsGithub style={{ margin: "30px 0px" }} />
+          <BsGithub />
         </a>
+      </div>
+      <div className={styles.linksInner}>
         <a
           href="https://www.linkedin.com/in/bill-wong1"
           target="_blank"
           rel="noreferrer"
           className={styles.linkedin}
         >
-          <BsLinkedin style={{ margin: "30px 0px" }} />
+          <BsLinkedin />
         </a>
       </div>
     </div>
