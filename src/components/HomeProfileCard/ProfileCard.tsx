@@ -9,8 +9,14 @@ const ProfileCard = () => {
       <span className={styles.introName}>Bill.</span>
       <br />
       <div className={styles.typewriter}>
-        I am&nbsp;
-        <Typewriter options={{ strings: MyHomeProfile.headlines, autoStart: true, loop: true }} />
+        <Typewriter
+          options={{
+            strings: MyHomeProfile.headlines,
+            autoStart: true,
+            loop: true,
+            deleteSpeed: 0.4,
+          }}
+        />
       </div>
     </div>
   );
