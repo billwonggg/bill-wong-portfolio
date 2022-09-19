@@ -14,7 +14,8 @@ const ProfileCard = () => {
             strings: MyHomeProfile.headlines,
             autoStart: true,
             loop: true,
-            deleteSpeed: 0.4,
+            delay: 120,
+            deleteSpeed: 25,
           }}
         />
       </div>
