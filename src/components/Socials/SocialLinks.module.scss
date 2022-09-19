@@ -1,3 +1,5 @@
+@import "../../styles/constants.scss";
+
 .linkcontainer {
   position: absolute;
   top: 0;
@@ -26,5 +28,20 @@
   &:hover {
     color: #0077b5;
     transform: scale(1.2);
+  }
+}
+
+@media screen and (max-width: $md) {
+  .linkcontainer {
+    top: auto;
+    bottom: 20px;
+    left: 0;
+    width: 100%;
+    height: auto;
+    flex-direction: row;
+  }
+
+  .linksInner {
+    margin: 0 40px;
   }
 }
