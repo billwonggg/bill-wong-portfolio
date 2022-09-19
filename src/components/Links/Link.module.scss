@@ -3,4 +3,5 @@
 .link {
   @include link;
   font-size: 1.2rem;
+  display: inline-block;
 }

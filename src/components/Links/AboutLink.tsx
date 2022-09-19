@@ -6,7 +6,7 @@ import { MdPersonPin } from "react-icons/md";
 const AboutLink = (style: React.CSSProperties) => {
   return (
     <Link className={styles.link} to="/about" style={style}>
-      <MdPersonPin size="1.05em" style={{ position: "relative", top: "4px" }} />
+      <MdPersonPin size="1.05em" style={{ position: "relative", top: "5px" }} />
       &nbsp;About
     </Link>
   );

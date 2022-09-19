@@ -6,7 +6,7 @@ import { IoBriefcaseOutline } from "react-icons/io5";
 const ExperienceLink = (style: React.CSSProperties) => {
   return (
     <Link className={styles.link} to="/experience" style={style}>
-      <IoBriefcaseOutline size="0.95em" style={{ position: "relative", top: "3px" }} />
+      <IoBriefcaseOutline size="0.95em" style={{ position: "relative", top: "2px" }} />
       &nbsp;Experience
     </Link>
   );
