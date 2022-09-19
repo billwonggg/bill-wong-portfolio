@@ -1,9 +1,9 @@
 // Screen breakpoints
-$xs: 400px;
-$sm: 576px;
-$md: 768px;
-$lg: 992px;
-$xl: 1200px;
+$xs: 0px;
+$sm: 600px;
+$md: 900px;
+$lg: 1200px;
+$xl: 1600px;
 
 // Page dimensions
 $inner-max-width: 800px;
@@ -16,10 +16,9 @@ $text-color-primary: rgb(207, 197, 175);
 $text-color-primary-hover: rgb(249, 211, 116);
 
 $root-font-size: (
-  null: 15px,
-  $xs: 16px,
-  $sm: 17px,
-  $md: 18px,
+  $xs: 15px,
+  $sm: 16px,
+  $md: 17px,
   $lg: 19px,
-  $xl: 20px,
+  $xl: 21px,
 );
