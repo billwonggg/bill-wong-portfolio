@@ -3,8 +3,9 @@
 .profileCard {
   width: 80vw;
   position: relative;
-  font-size: 2.5rem;
-  font-weight: 800;
+  font-size: 3rem;
+  word-spacing: 0.1rem;
+  font-family: $font-profile-card;
 }
 
 .introName {
@@ -14,4 +15,10 @@
 .typewriter {
   display: flex;
   flex-direction: row;
+}
+
+@media screen and (max-width: $md) {
+  .profileCard {
+    font-size: 2.5rem;
+  }
 }

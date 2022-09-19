@@ -13,9 +13,11 @@
   max-width: $inner-max-width;
   min-height: 100vh;
   padding: 10px;
+  font-family: $font-text;
 }
 
 @mixin link {
+  font-family: $font-links;
   text-decoration: none;
 
   &:hover {
