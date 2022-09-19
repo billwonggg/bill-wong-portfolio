@@ -1,0 +1,32 @@
+@import "../../styles/constants.scss";
+@import "../../styles/mixins.scss";
+
+.open {
+  color: black;
+}
+
+.closed {
+  color: $text-color-primary;
+}
+
+.menu {
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  font-size: 2rem;
+  @include flex-center(column);
+  z-index: 100;
+}
+
+.linksInner {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: $text-color-primary;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
