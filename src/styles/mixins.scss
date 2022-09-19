@@ -8,12 +8,11 @@
 }
 
 @mixin page-inner-setup {
+  @include flex-center(column);
   position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   max-width: $inner-max-width;
   min-height: 100vh;
+  padding: 10px;
 }
 
 @mixin link {
