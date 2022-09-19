@@ -1,8 +1,9 @@
 @import "./constants.scss";
+@import "./mixins.scss";
 
 html {
+  @include font-size($root-font-size);
   height: 100%;
-  font-size: 20px;
   min-height: 100vh;
 
   body {
