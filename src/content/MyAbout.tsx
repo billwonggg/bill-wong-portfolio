@@ -1,5 +1,3 @@
-import cp from "../assets/images/cp.png";
-
 const MyAbout = () => {
   return (
     <div>
@@ -15,12 +13,6 @@ const MyAbout = () => {
       </p>
       <br />
       <br />
-      <h2>My Hobbies</h2>
-      <img src={cp} alt="competitive programming" />
-      <p>
-        I like to compete in programming competitions, such as the ICPC and Google Kick Start. I
-        competed in the 2021 ICPC South Pacific Division and achieved the second place.
-      </p>
     </div>
   );
 };
