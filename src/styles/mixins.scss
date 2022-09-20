@@ -12,7 +12,8 @@
   position: relative;
   max-width: $inner-max-width;
   min-height: 100vh;
-  padding: 10px;
+  box-sizing: border-box;
+  padding: 0 20px;
   font-family: $font-text;
 }
 
