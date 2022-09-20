@@ -10,8 +10,8 @@
 }
 
 .skillsText {
+  @include page-inner-content;
   width: calc(100% - 20px);
-  margin-top: 10vh;
 }
 
 .tip {

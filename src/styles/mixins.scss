@@ -18,6 +18,14 @@
   font-family: $font-text;
 }
 
+@mixin page-inner-content {
+  margin-top: 5vw;
+
+  @media screen and (max-width: $md) {
+    margin-top: 12vw;
+  }
+}
+
 @mixin link {
   font-family: $font-links;
   text-decoration: none;

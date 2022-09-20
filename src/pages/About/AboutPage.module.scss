@@ -10,5 +10,5 @@
 }
 
 .aboutText {
-  margin-top: 10vh;
+  @include page-inner-content;
 }
