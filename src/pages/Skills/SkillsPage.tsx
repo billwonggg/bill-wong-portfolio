@@ -21,9 +21,7 @@ const SkillsPage = () => {
           <p>Here are some skills that I can bring to the table! 😄</p>
         </div>
         <SkillCloud />
-        <div className={styles.skillsText}>
-          <p className={styles.tip}>Tip: Feel free to drag around!</p>
-        </div>
+        <p className={styles.tip}>Tip: Feel free to drag around!</p>
       </motion.div>
     </div>
   );
