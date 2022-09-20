@@ -8,3 +8,7 @@
 .projectsInner {
   @include page-inner-setup;
 }
+
+.projectsText {
+  @include page-inner-content;
+}

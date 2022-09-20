@@ -15,7 +15,9 @@ const ExpPage = () => {
       >
         <HomeLink {...{ position: "absolute", top: "20px", left: 0 }} />
         <SkillsLink {...{ position: "absolute", top: "20px", right: 0 }} />
-        Hello
+        <div className={styles.experienceText}>
+          <h1>Experience</h1>This page is currently under development.
+        </div>
       </motion.div>
     </div>
   );

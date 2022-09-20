@@ -8,3 +8,7 @@
 .expInner {
   @include page-inner-setup;
 }
+
+.experienceText {
+  @include page-inner-content;
+}

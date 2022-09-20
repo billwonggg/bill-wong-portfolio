@@ -15,7 +15,9 @@ const ProjectPage = () => {
       >
         <HomeLink {...{ position: "absolute", top: "20px", left: 0 }} />
         <ExperienceLink {...{ position: "absolute", top: "20px", right: 0 }} />
-        Hello
+        <div className={styles.projectsText}>
+          <h1>Projects</h1>This page is currently under development.
+        </div>
       </motion.div>
     </div>
   );
