@@ -14,13 +14,16 @@ const SkillsPage = () => {
         transition={{ duration: 1, delay: 0.5 }}
         className={styles.skillsInner}
       >
-        <HomeLink {...{ position: "absolute", top: "20px", left: 0 }} />
-        <AboutLink {...{ position: "absolute", top: "20px", right: 0 }} />
+        <HomeLink {...{ position: "absolute", top: "20px", left: "20px" }} />
+        <AboutLink {...{ position: "absolute", top: "20px", right: "20px" }} />
         <div className={styles.skillsText}>
           <h1>Skills</h1>
           <p>Here are some skills that I can bring to the table! 😄</p>
         </div>
         <SkillCloud />
+        <div className={styles.skillsText}>
+          <p className={styles.tip}>Tip: Feel free to drag around!</p>
+        </div>
       </motion.div>
     </div>
   );

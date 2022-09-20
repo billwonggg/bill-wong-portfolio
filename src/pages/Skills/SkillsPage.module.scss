@@ -10,15 +10,10 @@
 }
 
 .skillsText {
-  width: 100%;
-  padding: 10px;
+  width: calc(100% - 20px);
+  margin: 0 10px;
+}
+
+.tip {
   text-align: center;
-
-  h1 {
-    font-size: 2.4rem;
-  }
-
-  p {
-    font-size: 1.2rem;
-  }
 }
