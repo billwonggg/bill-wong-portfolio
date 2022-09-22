@@ -13,8 +13,8 @@ const ExpPage = () => {
         transition={{ duration: 1, delay: 0.5 }}
         className={styles.expInner}
       >
-        <HomeLink {...{ position: "absolute", top: "20px", left: 0 }} />
-        <SkillsLink {...{ position: "absolute", top: "20px", right: 0 }} />
+        <HomeLink {...{ position: "absolute", top: "20px", left: "20px" }} />
+        <SkillsLink {...{ position: "absolute", top: "20px", right: "20px" }} />
         <div className={styles.experienceText}>
           <h1>Experience</h1>This page is currently under development.
         </div>

@@ -20,6 +20,7 @@
 
 @mixin page-inner-content {
   margin-top: 5vw;
+  width: 100%;
 
   @media screen and (max-width: $md) {
     margin-top: 12vw;

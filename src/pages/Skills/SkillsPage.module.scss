@@ -11,10 +11,8 @@
 
 .skillsText {
   @include page-inner-content;
-  width: calc(100% - 20px);
 }
 
 .tip {
-  width: calc(100% - 20px);
   text-align: center;
 }
