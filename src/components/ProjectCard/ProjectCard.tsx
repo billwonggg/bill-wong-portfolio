@@ -1,5 +1,4 @@
 import Project from "../../models/Project";
-import DemoButton from "../Buttons/DemoButton";
 import styles from "./ProjectCard.module.scss";
 
 const ProjectCard = (props: Project) => {
@@ -8,8 +7,8 @@ const ProjectCard = (props: Project) => {
       <h2>{props.title}</h2>
       {props.headline && <h4>{props.headline}</h4>}
       <p>{props.description}</p>
-      {/* {props.gitHubUrl && <DemoButton {props.demoUrl}/>} */}
-      {props.demoUrl && <DemoButton url={props.demoUrl} />}
+      {props.gitHubUrl && <a href={props.gitHubUrl}>GitHub</a>}
+      {props.demoUrl && <a href={props.demoUrl}>Website</a>}
     </div>
   );
 };

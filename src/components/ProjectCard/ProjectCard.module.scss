@@ -1,5 +1,23 @@
+@import "../../styles/constants.scss";
+
 .projectCard {
-  background-color: rgb(75, 111, 123);
-  padding: 20px;
-  border-radius: 20px;
+  background-color: $project-card-bg;
+  padding: 1.5rem;
+  border-radius: 2rem;
+
+  a {
+    margin: 10px;
+    text-decoration: none;
+    background-color: $text-color-primary;
+    color: $background-color;
+    border-radius: 50px;
+    font-size: 1rem;
+    padding: 5px 10px;
+    font-weight: 700;
+    font-family: $font-links;
+
+    &:hover {
+      background-color: $text-color-primary-hover;
+    }
+  }
 }
