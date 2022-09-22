@@ -5,11 +5,13 @@ import ProjectPage from "./pages/Projects/ProjectPage";
 import SkillsPage from "./pages/Skills/SkillsPage";
 import ExpPage from "./pages/Experience/ExpPage";
 import { AnimatePresence } from "framer-motion";
+import ParticlesBg from "./components/ParticlesBg/ParticlesBg";
 import "./styles/global.scss";
 
 const App = () => {
   return (
     <BrowserRouter>
+      <ParticlesBg />
       <AnimatePresence mode="wait">
         <Routes>
           <Route path="/" element={<HomePage />} />
