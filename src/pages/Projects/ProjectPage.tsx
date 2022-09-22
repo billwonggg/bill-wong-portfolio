@@ -1,7 +1,9 @@
 import { motion } from "framer-motion";
 import HomeLink from "../../components/Links/HomeLink";
 import ExperienceLink from "../../components/Links/ExperienceLink";
+import MyProjects from "../../content/MyProjects";
 import styles from "./ProjectPage.module.scss";
+import ProjectCard from "../../components/ProjectCard/ProjectCard";
 
 const ProjectPage = () => {
   return (
@@ -16,7 +18,10 @@ const ProjectPage = () => {
         <HomeLink {...{ position: "absolute", top: "20px", left: 0 }} />
         <ExperienceLink {...{ position: "absolute", top: "20px", right: 0 }} />
         <div className={styles.projectsText}>
-          <h1>Projects</h1>This page is currently under development.
+          <h1>Projects</h1>
+          {MyProjects.map((project, i) => (
+            <ProjectCard {...project} />
+          ))}
         </div>
       </motion.div>
     </div>

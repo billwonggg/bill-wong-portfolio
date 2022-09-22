@@ -3,6 +3,7 @@ import Project from "../models/Project";
 const MyProjects: Project[] = [
   {
     title: "MessageSpace",
+    headline: "A real time messaging app with rooms.",
     tools: ["React", "MaterialUI", "Azure", "SocketIO", "Docker"],
     description:
       "Built the frontend with React.js and Material UI and the backend with Express.js and \
