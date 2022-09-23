@@ -1,8 +1,10 @@
 @import "../../styles/constants.scss";
+@import "../../styles/mixins.scss";
 
 .projectCard {
   background-color: $project-card-bg;
   padding: 1.5rem;
+  margin: 1rem 0;
   border-radius: 2rem;
 
   a {
@@ -12,12 +14,43 @@
     color: $background-color;
     border-radius: 50px;
     font-size: 1rem;
-    padding: 5px 10px;
+    padding: 4px 15px;
     font-weight: 700;
     font-family: $font-links;
 
     &:hover {
       background-color: $text-color-primary-hover;
+    }
+  }
+
+  img {
+    width: calc(100% - 20px);
+    opacity: 0.8;
+    margin: 10px 10px;
+    transition: all 0.5s ease;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    &:hover {
+      transform: scale(1.04);
+    }
+  }
+
+  .projectLinks {
+    @include flex-center(row);
+    justify-content: space-evenly;
+  }
+}
+
+@media screen and (max-width: $md) {
+  .projectCard {
+    padding: 1rem;
+
+    img {
+      width: 100%;
+      margin: 10px 0;
+
+      &:hover {
+        transform: scale(1.02);
+      }
     }
   }
 }
