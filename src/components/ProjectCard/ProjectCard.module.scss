@@ -2,7 +2,7 @@
 @import "../../styles/mixins.scss";
 
 .projectCard {
-  background-color: $project-card-bg;
+  background-color: $bg-color-secondary;
   padding: 1.5rem;
   margin: 1rem 0;
   border-radius: 2rem;
@@ -11,7 +11,7 @@
     margin: 10px;
     text-decoration: none;
     background-color: $text-color-primary;
-    color: $background-color;
+    color: $bg-color-primary;
     border-radius: 50px;
     font-size: 1rem;
     padding: 4px 15px;

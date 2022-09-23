@@ -8,7 +8,7 @@
   font-weight: 700;
 
   outline: 2px solid $text-color-primary;
-  background: linear-gradient(to right, $text-color-primary 50%, $background-color 50%);
+  background: linear-gradient(to right, $text-color-primary 50%, $bg-color-primary 50%);
   background-size: 200% 100%;
   background-position: right bottom;
   transition: all 0.5s ease-out;
