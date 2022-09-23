@@ -2,10 +2,10 @@ import { Technology } from "./Technology";
 
 export default interface Experience {
   title: string;
-  company?: string;
+  company?: JSX.Element;
   location?: string;
-  employmentType?: "Full-Time" | "Part-Time" | "Internship" | "Casual" | "Program";
   timeline: string;
+  description: JSX.Element;
   image?: JSX.Element;
   gitHubUrl?: string;
   demoUrl?: string;
