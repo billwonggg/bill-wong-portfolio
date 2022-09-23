@@ -1,0 +1,23 @@
+@import "../../styles/constants.scss";
+
+.button {
+  margin: 10px;
+  text-decoration: none;
+  background-color: $text-color-primary;
+  color: $bg-color-primary;
+  border-radius: 50px;
+  font-size: 1rem;
+  padding: 4px 15px;
+  font-weight: 700;
+  font-family: $font-links;
+
+  &:hover {
+    background-color: $text-color-primary-hover;
+  }
+}
+
+.logo {
+  position: relative;
+  right: 5px;
+  top: 3px;
+}
