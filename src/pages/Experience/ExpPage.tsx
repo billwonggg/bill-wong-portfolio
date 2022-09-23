@@ -1,6 +1,8 @@
 import { motion } from "framer-motion";
+import ExperienceCard from "../../components/ExperienceCard/ExperienceCard";
 import HomeLink from "../../components/Links/HomeLink";
 import SkillsLink from "../../components/Links/SkillsLink";
+import MyExperience from "../../content/MyExperience";
 import styles from "./ExpPage.module.scss";
 
 const ExpPage = () => {
@@ -16,7 +18,11 @@ const ExpPage = () => {
         <HomeLink {...{ position: "absolute", top: "20px", left: "20px" }} />
         <SkillsLink {...{ position: "absolute", top: "20px", right: "20px" }} />
         <div className={styles.experienceText}>
-          <h1>Experience</h1>This page is currently under development.
+          <h1>Experience</h1>
+          <p>Here is a list of my experiences.</p>
+          {MyExperience.map((experience, i) => (
+            <ExperienceCard key={i} {...experience} />
+          ))}
         </div>
       </motion.div>
     </div>
