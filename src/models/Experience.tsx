@@ -5,8 +5,9 @@ export default interface Experience {
   company?: string;
   location?: string;
   employmentType?: "Full-Time" | "Part-Time" | "Internship" | "Casual" | "Program";
-  team?: string;
-  from: string;
-  to: string;
+  timeline: string;
+  image?: JSX.Element;
+  gitHubUrl?: string;
+  demoUrl?: string;
   technologies: Technology[];
 }
