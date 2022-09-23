@@ -5,7 +5,7 @@ import styles from "./Button.module.scss";
 const WebsiteButton = ({ url }: ButtonProps) => {
   return (
     <a className={styles.button} href={url} rel="_blank noreferrer">
-      <TbWorld className={styles.logo} />
+      <TbWorld className={`${styles.logo} ${styles.website}`} />
       Website
     </a>
   );
