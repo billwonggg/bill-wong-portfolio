@@ -1,4 +1,6 @@
 import Project from "../../models/Project";
+import GitHubButton from "../Buttons/GitHubButton";
+import WebsiteButton from "../Buttons/WebsiteButton";
 import styles from "./ProjectCard.module.scss";
 
 const ProjectCard = (props: Project) => {
@@ -9,8 +11,8 @@ const ProjectCard = (props: Project) => {
       {props.image}
       {props.description && <p>{props.description}</p>}
       <div className={styles.projectLinks}>
-        {props.gitHubUrl && <a href={props.gitHubUrl}>GitHub</a>}
-        {props.demoUrl && <a href={props.demoUrl}>Website</a>}
+        {props.gitHubUrl && <GitHubButton url={props.gitHubUrl} />}
+        {props.demoUrl && <WebsiteButton url={props.demoUrl} />}
       </div>
     </div>
   );

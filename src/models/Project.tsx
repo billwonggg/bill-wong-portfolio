@@ -1,4 +1,3 @@
-import { JsxElement } from "typescript";
 import { Technology } from "./Technology";
 
 export default interface Project {
