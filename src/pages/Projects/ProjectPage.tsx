@@ -20,8 +20,8 @@ const ProjectPage = () => {
         <div className={styles.projectsText}>
           <h1>Projects</h1>
           <p>
-            These are some of the projects that I built. Read about the project in the GitHub link,
-            or visit the website to explore more.
+            These are some of the projects that I have built. Read more about the project in the
+            GitHub link, or visit the website to explore.
           </p>
           {MyProjects.map((project, i) => (
             <ProjectCard key={i} {...project} />

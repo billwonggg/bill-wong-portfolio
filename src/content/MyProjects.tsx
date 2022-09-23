@@ -6,7 +6,7 @@ import recipeSearch from "../assets/images/recipe_search.png";
 const MyProjects: Project[] = [
   {
     title: "MessageSpace",
-    headline: "A real time messaging app with rooms.",
+    headline: "A real time messaging web app with rooms.",
     tools: ["React", "MaterialUI", "Azure", "SocketIO", "Docker"],
     image: <img src={messageSpace} alt="Message Space" />,
     demoUrl: "https://message-space.web.app",
