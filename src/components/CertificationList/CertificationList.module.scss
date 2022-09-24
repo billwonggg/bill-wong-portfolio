@@ -1,0 +1,13 @@
+@import "../../styles/constants.scss";
+
+.list {
+  a {
+    font-size: 1rem;
+    color: $text-color-primary-hover;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
