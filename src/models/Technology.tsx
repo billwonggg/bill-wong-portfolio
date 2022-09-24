@@ -9,6 +9,6 @@ export type Technology =
   | "MaterialUI"
   | "Node"
   | "React"
-  | "Sass"
-  | "SocketIO"
+  | "SCSS"
+  | "Socket.io"
   | "TypeScript";
