@@ -4,7 +4,7 @@ import styles from "./Button.module.scss";
 
 const GitHubButton = ({ url }: ButtonProps) => {
   return (
-    <a className={styles.button} href={url} rel="_blank noreferrer">
+    <a className={styles.button} href={url} target="_blank" rel="noopener noreferrer">
       <VscGithub className={`${styles.logo} ${styles.gitHub}`} />
       GitHub
     </a>
