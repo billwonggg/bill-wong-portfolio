@@ -1,0 +1,26 @@
+@import "../../styles/constants.scss";
+@import "../../styles/mixins.scss";
+
+.tools {
+  @include flex-center(row);
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin: 0.5rem 0;
+  font-size: 0.9rem;
+}
+
+.badge {
+  width: fit-content;
+  margin: 0.3rem 0.4rem;
+  padding: 0.3rem 0.8rem;
+  border-radius: 2rem;
+  font-weight: 700;
+  background-color: lighten($bg-color-primary, 10);
+  transition: all 0.5s ease;
+
+  &:hover {
+    @media screen and (min-width: $md) {
+      scale: 1.12;
+    }
+  }
+}
