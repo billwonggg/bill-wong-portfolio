@@ -6,7 +6,9 @@ const CertificationList = () => {
     <ul className={styles.list}>
       {MyCertifications.map((certification, i) => (
         <li key={i}>
-          <a href={certification.url}>{certification.name}</a>
+          <a href={certification.url} target="_blank" rel="noopener noreferrer">
+            {certification.name}
+          </a>
         </li>
       ))}
     </ul>
