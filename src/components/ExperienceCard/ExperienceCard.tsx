@@ -8,7 +8,7 @@ const ExperienceCard = (props: Experience) => {
     <div className={styles.experienceCard}>
       <h3>{props.title}</h3>
       <div className={styles.logoLine}>
-        <p>{props.timeline}</p>
+        <h4>{props.timeline}</h4>
         <div className={styles.imgContainer}>{props.company}</div>
       </div>
       {props.image !== undefined && <div className={styles.demoImage}>{props.image}</div>}

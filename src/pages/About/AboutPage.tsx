@@ -21,6 +21,7 @@ const AboutPage = () => {
         <div className={styles.aboutText}>
           <MyAbout />
           <h2>My Interests</h2>
+          <br />
           {MyInterests.map((interest, i) => (
             <Collapse key={i} {...interest} />
           ))}
