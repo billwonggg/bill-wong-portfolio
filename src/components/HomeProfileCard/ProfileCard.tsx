@@ -15,7 +15,7 @@ const ProfileCard = () => {
             autoStart: true,
             loop: true,
             delay: 120,
-            deleteSpeed: 25,
+            deleteSpeed: 18,
           }}
         />
       </div>
