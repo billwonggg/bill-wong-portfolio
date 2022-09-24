@@ -1,6 +1,7 @@
 import Experience from "../../models/Experience";
 import GitHubButton from "../Buttons/GitHubButton";
 import WebsiteButton from "../Buttons/WebsiteButton";
+import ToolBadges from "../ToolBadges/ToolBadges";
 import styles from "./ExperienceCard.module.scss";
 
 const ExperienceCard = (props: Experience) => {
@@ -11,6 +12,7 @@ const ExperienceCard = (props: Experience) => {
         <h4>{props.timeline}</h4>
         <div className={styles.imgContainer}>{props.company}</div>
       </div>
+      {props.technologies.length > 0 && <ToolBadges tools={props.technologies} />}
       {props.image !== undefined && <div className={styles.demoImage}>{props.image}</div>}
       {props.description}
       <div className={styles.experienceLinks}>
