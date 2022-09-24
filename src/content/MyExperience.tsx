@@ -20,7 +20,7 @@ const MyExperience: Experience[] = [
         </li>
       </ul>
     ),
-    technologies: ["AWS"],
+    technologies: [],
   },
   {
     title: "Accenture Tech Bootcamp",
@@ -30,7 +30,7 @@ const MyExperience: Experience[] = [
       <img
         src={policyMap}
         alt="World COVID Restrictions"
-        style={{ outline: "5px solid white", width: "90%" }}
+        style={{ outline: "5px solid white", width: "100%", margin: "0.5rem 0" }}
       />
     ),
     description: (

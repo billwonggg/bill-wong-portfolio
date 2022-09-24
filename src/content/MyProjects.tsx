@@ -7,7 +7,7 @@ const MyProjects: Project[] = [
   {
     title: "MessageSpace",
     headline: "A real time messaging web app with rooms.",
-    tools: ["React", "MaterialUI", "Azure", "SocketIO", "Docker"],
+    tools: ["React", "MaterialUI", "Socket.io", "Docker", "Azure"],
     image: <img src={messageSpace} alt="Message Space" />,
     demoUrl: "https://message-space.web.app",
     gitHubUrl: "https://github.com/billwonggg/message-space",
@@ -15,7 +15,7 @@ const MyProjects: Project[] = [
   {
     title: "Calculator App",
     headline: "A calculator with a minimalist design and great features.",
-    tools: ["React", "TypeScript"],
+    tools: ["React", "TypeScript", "Jest"],
     image: <img src={calculator} alt="Calculator App" />,
     demoUrl: "https://ui-calculate.web.app/",
     gitHubUrl: "https://github.com/billwonggg/calculator-app",
