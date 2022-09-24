@@ -14,7 +14,7 @@ const MyProjects: Project[] = [
   },
   {
     title: "Calculator App",
-    headline: "A calculator with minimalist design and great features.",
+    headline: "A calculator with a minimalist design and great features.",
     tools: ["React", "TypeScript"],
     image: <img src={calculator} alt="Calculator App" />,
     demoUrl: "https://ui-calculate.web.app/",
