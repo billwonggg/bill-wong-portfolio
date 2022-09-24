@@ -1,6 +1,6 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import { FaHome } from "react-icons/fa";
+import { Link } from "react-router-dom";
 import styles from "./Link.module.scss";
 
 const HomeLink = (style: React.CSSProperties) => {

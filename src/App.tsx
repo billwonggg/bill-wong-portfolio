@@ -1,11 +1,11 @@
+import { AnimatePresence } from "framer-motion";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import ParticlesBg from "./components/ParticlesBg/ParticlesBg";
 import AboutPage from "./pages/About/AboutPage";
+import ExpPage from "./pages/Experience/ExpPage";
 import HomePage from "./pages/Home/HomePage";
 import ProjectPage from "./pages/Projects/ProjectPage";
 import SkillsPage from "./pages/Skills/SkillsPage";
-import ExpPage from "./pages/Experience/ExpPage";
-import { AnimatePresence } from "framer-motion";
-import ParticlesBg from "./components/ParticlesBg/ParticlesBg";
 import "./styles/global.scss";
 
 const App = () => {

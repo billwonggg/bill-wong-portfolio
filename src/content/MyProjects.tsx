@@ -1,7 +1,7 @@
-import Project from "../models/Project";
-import messageSpace from "../assets/images/message_space.png";
 import calculator from "../assets/images/calculator.png";
+import messageSpace from "../assets/images/message_space.png";
 import recipeSearch from "../assets/images/recipe_search.png";
+import Project from "../models/Project";
 
 const MyProjects: Project[] = [
   {

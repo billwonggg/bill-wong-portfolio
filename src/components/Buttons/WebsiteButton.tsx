@@ -1,6 +1,6 @@
 import { TbWorld } from "react-icons/tb";
-import ButtonProps from "./ButtonProps";
 import styles from "./Button.module.scss";
+import ButtonProps from "./ButtonProps";
 
 const WebsiteButton = ({ url }: ButtonProps) => {
   return (

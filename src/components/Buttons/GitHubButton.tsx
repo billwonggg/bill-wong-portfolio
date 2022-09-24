@@ -1,6 +1,6 @@
 import { VscGithub } from "react-icons/vsc";
-import ButtonProps from "./ButtonProps";
 import styles from "./Button.module.scss";
+import ButtonProps from "./ButtonProps";
 
 const GitHubButton = ({ url }: ButtonProps) => {
   return (

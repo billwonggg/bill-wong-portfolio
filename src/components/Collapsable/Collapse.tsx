@@ -1,4 +1,4 @@
-import { useState, useRef } from "react";
+import { useRef, useState } from "react";
 import { HiOutlineChevronDown, HiOutlineChevronUp } from "react-icons/hi";
 import styles from "./Collapse.module.scss";
 

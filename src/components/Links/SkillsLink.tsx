@@ -1,6 +1,6 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import { HiOutlineLightBulb } from "react-icons/hi";
+import { Link } from "react-router-dom";
 import styles from "./Link.module.scss";
 
 const SkillsLink = (style: React.CSSProperties) => {

@@ -1,9 +1,9 @@
 import { motion } from "framer-motion";
-import HomeLink from "../../components/Links/HomeLink";
 import ExperienceLink from "../../components/Links/ExperienceLink";
+import HomeLink from "../../components/Links/HomeLink";
+import ProjectCard from "../../components/ProjectCard/ProjectCard";
 import MyProjects from "../../content/MyProjects";
 import styles from "./ProjectPage.module.scss";
-import ProjectCard from "../../components/ProjectCard/ProjectCard";
 
 const ProjectPage = () => {
   return (

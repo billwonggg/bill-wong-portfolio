@@ -1,7 +1,7 @@
 import { useCallback } from "react";
 import Particles from "react-particles";
-import type { Engine } from "tsparticles-engine";
 import { loadFull } from "tsparticles";
+import type { Engine } from "tsparticles-engine";
 import { useWidthBreakpoint } from "../../util/breakpoint";
 
 const ParticlesBg = () => {

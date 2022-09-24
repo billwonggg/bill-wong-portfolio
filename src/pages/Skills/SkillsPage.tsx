@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
+import CertificationList from "../../components/CertificationList/CertificationList";
 import AboutLink from "../../components/Links/AboutLink";
 import HomeLink from "../../components/Links/HomeLink";
-import CertificationList from "../../components/CertificationList/CertificationList";
 import SkillCloud from "../../components/Skills/SkillCloud";
 import styles from "./SkillsPage.module.scss";
 

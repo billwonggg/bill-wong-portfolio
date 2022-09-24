@@ -1,4 +1,3 @@
-import React from "react";
 import { useWidthBreakpoint } from "../../util/breakpoint";
 import HomePageLinksLg from "./HomePageLinksLg";
 import HomePageLinksMd from "./HomePageLinksMd";

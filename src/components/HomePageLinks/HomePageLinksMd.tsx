@@ -1,12 +1,12 @@
+import { AnimatePresence, motion } from "framer-motion";
 import React, { useState } from "react";
-import styles from "./HomePageLinksMd.module.scss";
-import AboutLink from "../Links/AboutLink";
-import ProjectsLink from "../Links/ProjectsLink";
-import SkillsLink from "../Links/SkillsLink";
-import ExperienceLink from "../Links/ExperienceLink";
 import { HiMenu } from "react-icons/hi";
 import { IoClose } from "react-icons/io5";
-import { motion, AnimatePresence } from "framer-motion";
+import AboutLink from "../Links/AboutLink";
+import ExperienceLink from "../Links/ExperienceLink";
+import ProjectsLink from "../Links/ProjectsLink";
+import SkillsLink from "../Links/SkillsLink";
+import styles from "./HomePageLinksMd.module.scss";
 
 const HomePageLinksMd = () => {
   const [open, setOpen] = useState<boolean>(false);

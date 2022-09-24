@@ -1,7 +1,7 @@
 import React from "react";
+import { MdPersonPin } from "react-icons/md";
 import { Link } from "react-router-dom";
 import styles from "./Link.module.scss";
-import { MdPersonPin } from "react-icons/md";
 
 const AboutLink = (style: React.CSSProperties) => {
   return (

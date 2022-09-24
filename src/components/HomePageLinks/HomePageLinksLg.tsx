@@ -1,9 +1,9 @@
 import React from "react";
-import styles from "./HomePageLinksLg.module.scss";
 import AboutLink from "../Links/AboutLink";
+import ExperienceLink from "../Links/ExperienceLink";
 import ProjectsLink from "../Links/ProjectsLink";
 import SkillsLink from "../Links/SkillsLink";
-import ExperienceLink from "../Links/ExperienceLink";
+import styles from "./HomePageLinksLg.module.scss";
 
 const HomePageLinksLg = () => {
   const linkStyles: React.CSSProperties = {

@@ -1,8 +1,8 @@
 import { motion } from "framer-motion";
-import styles from "./HomePage.module.scss";
-import ProfileCard from "../../components/HomeProfileCard/ProfileCard";
 import HomePageLinks from "../../components/HomePageLinks/HomePageLinks";
+import ProfileCard from "../../components/HomeProfileCard/ProfileCard";
 import SocialLinks from "../../components/Socials/SocialLinks";
+import styles from "./HomePage.module.scss";
 
 const HomePage = () => {
   return (

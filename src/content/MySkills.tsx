@@ -1,8 +1,25 @@
-import { siJavascript, siC, siCplusplus, siReact, siPython } from "simple-icons/icons";
-import { siTypescript, siNodedotjs, siAmazonaws, siMicrosoftazure } from "simple-icons/icons";
-import { siDocker, siGooglecloud, siHtml5, siCss3, siGnubash } from "simple-icons/icons";
-import { siFirebase, siGit, siVisualstudiocode, siPostgresql } from "simple-icons/icons";
-import { siExpress, siGithub } from "simple-icons/icons";
+import {
+  siAmazonaws,
+  siC,
+  siCplusplus,
+  siCss3,
+  siDocker,
+  siExpress,
+  siFirebase,
+  siGit,
+  siGithub,
+  siGnubash,
+  siGooglecloud,
+  siHtml5,
+  siJavascript,
+  siMicrosoftazure,
+  siNodedotjs,
+  siPostgresql,
+  siPython,
+  siReact,
+  siTypescript,
+  siVisualstudiocode,
+} from "simple-icons/icons";
 
 const MySkills = [
   siC,

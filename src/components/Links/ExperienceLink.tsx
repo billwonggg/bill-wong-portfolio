@@ -1,7 +1,7 @@
 import React from "react";
+import { HiOutlineBriefcase } from "react-icons/hi";
 import { Link } from "react-router-dom";
 import styles from "./Link.module.scss";
-import { HiOutlineBriefcase } from "react-icons/hi";
 
 const ExperienceLink = (style: React.CSSProperties) => {
   return (

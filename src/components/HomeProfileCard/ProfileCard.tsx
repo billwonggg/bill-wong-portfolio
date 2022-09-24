@@ -1,5 +1,5 @@
-import MyHomeProfile from "../../content/MyHomeProfile";
 import Typewriter from "typewriter-effect";
+import MyHomeProfile from "../../content/MyHomeProfile";
 import styles from "./ProfileCard.module.scss";
 
 const ProfileCard = () => {

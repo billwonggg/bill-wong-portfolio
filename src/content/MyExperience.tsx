@@ -1,7 +1,7 @@
-import Experience from "../models/Experience";
-import aws from "../assets/images/aws.png";
 import accenture from "../assets/images/accenture.png";
+import aws from "../assets/images/aws.png";
 import policyMap from "../assets/images/policy-map.png";
+import Experience from "../models/Experience";
 
 const MyExperience: Experience[] = [
   {
