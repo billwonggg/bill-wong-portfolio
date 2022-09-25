@@ -2,7 +2,7 @@
 
 .skillspage {
   @include flex-center(column);
-  min-height: 100vh;
+  min-height: var(--app-height);
 }
 
 .skillsInner {
