@@ -1,4 +1,4 @@
-import { Technology } from "./Technology";
+import { Badge } from "../components/ToolBadges/ToolBadges";
 
 export default interface Experience {
   title: string;
@@ -9,5 +9,5 @@ export default interface Experience {
   image?: JSX.Element;
   gitHubUrl?: string;
   demoUrl?: string;
-  technologies: Technology[];
+  technologies: Badge[];
 }
