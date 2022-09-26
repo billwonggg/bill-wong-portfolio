@@ -11,9 +11,10 @@
 
 .badge {
   width: fit-content;
-  margin: 0.3rem 0.4rem;
+  margin: 0.3rem;
   padding: 0.3rem 0.8rem;
   border-radius: 2rem;
+  font-size: 0.8rem;
   font-weight: 700;
   background-color: lighten($bg-color-primary, 10);
   transition: all 0.5s ease;
