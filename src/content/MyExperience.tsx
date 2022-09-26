@@ -2,6 +2,7 @@ import accenture from "../assets/images/accenture.png";
 import aws from "../assets/images/aws.png";
 import policyMap from "../assets/images/policy-map.png";
 import Experience from "../models/Experience";
+import { Technology } from "../models/Technology";
 
 const MyExperience: Experience[] = [
   {
@@ -49,7 +50,7 @@ const MyExperience: Experience[] = [
         </li>
       </ul>
     ),
-    technologies: ["React", "MaterialUI", "AWS"],
+    technologies: [Technology.React, Technology.MaterialUI, Technology.AWS],
     gitHubUrl: "https://github.com/billwonggg/world-covid-restrictions",
     demoUrl: "https://policy-map.web.app/",
   },
