@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import Footer from "../../components/Footer/Footer";
 import HomePageLinks from "../../components/HomePageLinks/HomePageLinks";
 import ProfileCard from "../../components/HomeProfileCard/ProfileCard";
 import SocialLinks from "../../components/Socials/SocialLinks";
@@ -16,6 +17,7 @@ const HomePage = () => {
         <ProfileCard />
         <HomePageLinks />
         <SocialLinks />
+        <Footer />
       </motion.div>
     </div>
   );
