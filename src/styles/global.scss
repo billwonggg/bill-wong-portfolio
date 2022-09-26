@@ -18,19 +18,24 @@ html {
 
   a {
     color: inherit;
-    font-size: 1.6rem;
+    font-size: 1.5rem;
   }
 
   h1 {
-    font-size: 2rem;
+    font-size: 1.8rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+    margin: 0;
+  }
+
+  h3 {
+    font-size: 1.3rem;
+    margin: 0;
   }
 
   p {
     font-size: 1rem;
-  }
-
-  h2,
-  h3 {
-    margin: 0;
   }
 }

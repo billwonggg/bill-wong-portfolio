@@ -1,5 +1,4 @@
-import { BsGithub } from "react-icons/bs";
-import { BsLinkedin } from "react-icons/bs";
+import { BsGithub, BsLinkedin } from "react-icons/bs";
 import styles from "./SocialLinks.module.scss";
 
 const SocialLinks = () => {
@@ -9,7 +8,7 @@ const SocialLinks = () => {
         <a
           href="https://github.com/billwonggg"
           target="_blank"
-          rel="noreferrer"
+          rel="noopener noreferrer"
           className={styles.github}
         >
           <BsGithub />
@@ -19,7 +18,7 @@ const SocialLinks = () => {
         <a
           href="https://www.linkedin.com/in/bill-wong1"
           target="_blank"
-          rel="noreferrer"
+          rel="noopener noreferrer"
           className={styles.linkedin}
         >
           <BsLinkedin />

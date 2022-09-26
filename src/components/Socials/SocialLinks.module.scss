@@ -2,17 +2,17 @@
 
 .linkcontainer {
   position: absolute;
-  top: 0;
-  right: 40px;
+  bottom: 1rem;
+  right: 2rem;
   height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-end;
 }
 
 .linksInner {
   display: flex;
-  margin: 50px 0;
+  margin: 1.6rem 0;
 }
 
 .github {
@@ -33,15 +33,11 @@
 
 @media screen and (max-width: $md) {
   .linkcontainer {
-    top: auto;
-    bottom: 20px;
-    left: 0;
-    width: 100%;
-    height: auto;
-    flex-direction: row;
+    bottom: 3rem;
+    right: 1rem;
   }
 
   .linksInner {
-    margin: 0 50px;
+    margin: 20px 0;
   }
 }
