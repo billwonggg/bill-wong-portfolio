@@ -29,6 +29,10 @@
     }
   }
 
+  ul {
+    font-size: 0.9rem;
+  }
+
   .experienceLinks {
     @include flex-center(row);
     justify-content: space-evenly;
