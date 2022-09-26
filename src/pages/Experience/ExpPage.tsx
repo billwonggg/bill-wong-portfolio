@@ -19,7 +19,6 @@ const ExpPage = () => {
         <SkillsLink {...{ position: "absolute", top: "20px", right: "20px" }} />
         <div className={styles.experienceText}>
           <h1>Experience</h1>
-          <p>Here is a list of my experiences.</p>
           {MyExperience.map((experience, i) => (
             <ExperienceCard key={i} {...experience} />
           ))}
