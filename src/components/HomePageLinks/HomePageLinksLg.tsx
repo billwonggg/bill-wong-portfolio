@@ -9,7 +9,7 @@ const HomePageLinksLg = () => {
   const linkStyles: React.CSSProperties = {
     position: "relative",
     bottom: "6px",
-    margin: "0px 50px",
+    margin: "0px 2rem",
   };
 
   return (
