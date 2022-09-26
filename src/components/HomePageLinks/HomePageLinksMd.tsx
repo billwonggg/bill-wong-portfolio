@@ -14,7 +14,7 @@ const HomePageLinksMd = () => {
   const linkStyles: React.CSSProperties = {
     width: "fit-content",
     bottom: "6px",
-    fontSize: "1.7rem",
+    fontSize: "1.5rem",
     fontWeight: 700,
   };
 
