@@ -1,6 +1,6 @@
 # **Personal Website** - [_Link Here_](https://billw.space)
 
-This is my developer portfolio website.
+This is my new developer portfolio website.
 
 ## Background
 
