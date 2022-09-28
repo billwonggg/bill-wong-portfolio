@@ -24,7 +24,7 @@ const MyProjects: Project[] = [
   },
   {
     title: "New Personal Website",
-    headline: "An upgraded version of my old personal website that you are current viewing.",
+    headline: "An upgraded version of my old personal website that you are currently viewing.",
     tools: [Technology.React, Technology.TypeScript, Technology.Sass, Technology.Framer],
     image: <img src={developerSite} alt="New Personal Website" />,
     demoUrl: "https://billw.space",
