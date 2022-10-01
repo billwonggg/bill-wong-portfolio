@@ -7,6 +7,7 @@ const SocialLinks = () => {
       <div className={styles.linksInner}>
         <a
           href="https://github.com/billwonggg"
+          aria-label="github"
           target="_blank"
           rel="noopener noreferrer"
           className={styles.github}
@@ -17,6 +18,7 @@ const SocialLinks = () => {
       <div className={styles.linksInner}>
         <a
           href="https://www.linkedin.com/in/bill-wong1"
+          aria-label="linkedin"
           target="_blank"
           rel="noopener noreferrer"
           className={styles.linkedin}
