@@ -18,9 +18,8 @@
     "react-particles": "^2.3.3",
     "react-router-dom": "^6.4.1",
     "react-scripts": "5.0.1",
-    "simple-icons": "^7.13.0",
+    "simple-icons": "^7.14.0",
     "tsparticles": "^2.3.4",
-    "typescript": "^4.8.4",
     "typewriter-effect": "^2.19.0",
     "web-vitals": "^3.0.2"
   },
@@ -52,6 +51,7 @@
     "react-compress": "^3.6.4",
     "sass": "^1.55.0",
     "sass-loader": "^13.0.2",
-    "style-loader": "^3.3.1"
+    "style-loader": "^3.3.1",
+    "typescript": "^4.8.4"
   }
 }
