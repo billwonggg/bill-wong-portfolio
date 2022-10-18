@@ -18,7 +18,7 @@ const Collapse = ({ headline, content }: CollapseProps) => {
           className={styles.collapseIcon}
           style={{
             transform: open ? "rotate(360deg)" : "rotate(0deg)",
-            transition: "all 0.3s ease-in-out",
+            transition: "all 0.8s ease",
           }}
         >
           {open ? <HiOutlineChevronUp /> : <HiOutlineChevronDown />}
