@@ -1,14 +1,26 @@
 import accenture from "../assets/images/accenture.png";
 import aws from "../assets/images/aws.png";
+import nab from "../assets/images/nab.png";
 import policyMap from "../assets/images/policy-map.png";
 import Experience from "../models/Experience";
 import { Technology } from "../models/Technology";
 
 const MyExperience: Experience[] = [
   {
+    title: "Software Engineering Intern",
+    company: <img src={nab} alt="NAB" style={{ width: "min(80px, 15vw)" }} />,
+    timeline: "Feb 2023 -",
+    description: (
+      <ul>
+        <li>Not yet started.</li>
+      </ul>
+    ),
+    technologies: [],
+  },
+  {
     title: "AWS Early Careers Innovation Program",
-    company: <img src={aws} alt="Amazon Web Services" style={{ width: "65px" }} />,
-    timeline: "May 2022",
+    company: <img src={aws} alt="Amazon Web Services" style={{ width: "min(60px, 12vw)" }} />,
+    timeline: "Apr 2022 - May 2022",
     description: (
       <ul>
         <li>
@@ -21,11 +33,11 @@ const MyExperience: Experience[] = [
         </li>
       </ul>
     ),
-    technologies: [],
+    technologies: [Technology.AWS, Technology.DrawIO, Technology.PowerPoint],
   },
   {
     title: "Accenture Tech Bootcamp",
-    company: <img src={accenture} alt="Accenture" style={{ width: "110px" }} />,
+    company: <img src={accenture} alt="Accenture" style={{ width: "min(110px, 20vw)" }} />,
     timeline: "Feb 2022",
     image: (
       <img
