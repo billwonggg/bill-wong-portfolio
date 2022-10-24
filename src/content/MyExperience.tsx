@@ -33,7 +33,7 @@ const MyExperience: Experience[] = [
         </li>
       </ul>
     ),
-    technologies: [],
+    technologies: [Technology.AWS, Technology.DrawIO, Technology.PowerPoint],
   },
   {
     title: "Accenture Tech Bootcamp",
