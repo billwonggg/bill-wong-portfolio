@@ -1,6 +1,6 @@
 {
   "name": "bill-wong-portfolio",
-  "version": "2.6.0",
+  "version": "2.6.1",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
@@ -10,7 +10,7 @@
     "@types/node": "^18.11.9",
     "@types/react": "^18.0.25",
     "@types/react-dom": "^18.0.8",
-    "framer-motion": "^7.6.5",
+    "framer-motion": "^7.6.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icon-cloud": "^4.1.4",
