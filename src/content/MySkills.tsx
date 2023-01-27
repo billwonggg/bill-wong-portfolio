@@ -17,9 +17,10 @@ import {
   siPostgresql,
   siPython,
   siReact,
+  siSpring,
   siTypescript,
   siVisualstudiocode,
-} from "simple-icons/icons";
+} from "simple-icons";
 
 const MySkills = [
   siC,
@@ -42,6 +43,7 @@ const MySkills = [
   siPostgresql,
   siExpress,
   siGithub,
+  siSpring,
 ];
 
 export default MySkills;
