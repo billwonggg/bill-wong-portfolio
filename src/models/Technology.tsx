@@ -12,8 +12,10 @@ import {
   SiMaterialui,
   SiMicrosoftazure,
   SiMicrosoftpowerpoint,
+  SiPostgresql,
   SiReact,
   SiSocketdotio,
+  SiSpringboot,
   SiTypescript,
 } from "react-icons/si";
 
@@ -31,9 +33,11 @@ export const Technology: { [key: string]: Badge } = {
   JavaScript: { name: "JavaScript", icon: SiJavascript, color: "#F7DF1E" },
   Jest: { name: "Jest", icon: SiJest, color: "#C21325" },
   MaterialUI: { name: "Material UI", icon: SiMaterialui, color: "#007FFF" },
+  PostgreSql: { name: "PostgreSql", icon: SiPostgresql, color: "#4169E1" },
   PowerPoint: { name: "PowerPoint", icon: SiMicrosoftpowerpoint, color: "#B7472A" },
   React: { name: "React", icon: SiReact, color: "#61DAFB" },
   SocketIO: { name: "Socket.io", icon: SiSocketdotio },
+  SpringBoot: { name: "Spring Boot", icon: SiSpringboot, color: "#6DB33F" },
   Sass: { name: "Sass", icon: FaSass, color: "#CC6699" },
   TypeScript: { name: "TypeScript", icon: SiTypescript, color: "#3178C6" },
 };
