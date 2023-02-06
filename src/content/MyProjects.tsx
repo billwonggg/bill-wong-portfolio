@@ -3,10 +3,26 @@ import developerSite from "../assets/images/developer_site.png";
 import messageSpace from "../assets/images/message_space.png";
 import oldSite from "../assets/images/old_site.png";
 import recipeSearch from "../assets/images/recipe_search.png";
+import smu from "../assets/images/smu.png";
 import Project from "../models/Project";
 import { Technology } from "../models/Technology";
 
 const MyProjects: Project[] = [
+  {
+    title: "Student Management System",
+    headline: "A website to manage student data connected to a database.",
+    tools: [
+      Technology.React,
+      Technology.TypeScript,
+      Technology.MaterialUI,
+      Technology.SpringBoot,
+      Technology.PostgreSql,
+      Technology.Docker,
+    ],
+    image: <img src={smu} alt="Student Management System" />,
+    gitHubUrl: "https://github.com/billwonggg/student-management-system",
+  },
+
   {
     title: "MessageSpace",
     headline: "A real time messaging web app with rooms.",
