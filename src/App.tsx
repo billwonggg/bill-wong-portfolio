@@ -26,10 +26,10 @@ const App = () => {
       <AnimatePresence mode="wait">
         <Routes>
           <Route path="/" element={<HomePage />} />
-          <Route path="/about" element={<AboutPage />} />
-          <Route path="/projects" element={<ProjectPage />} />
-          <Route path="/experience" element={<ExpPage />} />
-          <Route path="/skills" element={<SkillsPage />} />
+          <Route index path="/about" element={<AboutPage />} />
+          <Route index path="/projects" element={<ProjectPage />} />
+          <Route index path="/experience" element={<ExpPage />} />
+          <Route index path="/skills" element={<SkillsPage />} />
         </Routes>
       </AnimatePresence>
     </BrowserRouter>
