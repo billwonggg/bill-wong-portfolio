@@ -1,14 +1,5 @@
 {
   "projects": {
     "default": "billwongcv"
-  },
-  "hosting": {
-    "public": "build",
-    "rewrites": [
-      {
-        "source": "**",
-        "destination": "/index.html"
-      }
-    ]
   }
 }
