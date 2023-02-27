@@ -9,13 +9,34 @@ const MyExperience: Experience[] = [
   {
     title: "Software Engineering Intern",
     company: <img src={nab} alt="NAB" style={{ width: "min(80px, 15vw)" }} />,
-    timeline: "Feb 2023 -",
+    timeline: "Feb 2023 - Present",
     description: (
       <ul>
-        <li>Not yet started.</li>
+        <li>
+          Built a web app with React, TypeScript and NAB's UI frameworks for submissions of
+          Suspicious Matter Reports for Anti-Money Laundering and Counter-Terrorism Financing
+          obligations.
+        </li>
+        <li>
+          Implemented and applied test driven development for the backend REST API microservice in a
+          dockerised environment using Java Spring Boot and PostgreSQL, and improved code coverage
+          by writing unit and component tests.
+        </li>
+        <li>
+          Planned and executed production deployment procedures, from API and testing documentation
+          to various quality and compliance checks before deploying to production in AWS
+        </li>
       </ul>
     ),
-    technologies: [],
+    technologies: [
+      Technology.React,
+      Technology.TypeScript,
+      Technology.Jest,
+      Technology.SpringBoot,
+      Technology.PostgreSql,
+      Technology.Docker,
+      Technology.AWS,
+    ],
   },
   {
     title: "AWS Early Careers Innovation Program",
