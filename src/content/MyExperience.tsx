@@ -24,7 +24,7 @@ const MyExperience: Experience[] = [
         </li>
         <li>
           Planned and executed production deployment procedures, from API and testing documentation
-          to various quality and compliance checks before deploying to production in AWS
+          to various quality and compliance checks before deploying to production in AWS.
         </li>
       </ul>
     ),
