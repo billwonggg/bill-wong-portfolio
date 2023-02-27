@@ -3,7 +3,7 @@ const MyAbout = () => {
     <div>
       <h1>About</h1>
       <p>
-        I'm Bill, a second year Software Engineering student at UNSW. I have been programming since
+        I'm Bill, a third year Software Engineering student at UNSW. I have been programming since
         high school and I love it!
       </p>
       <p>
