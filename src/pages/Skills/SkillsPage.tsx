@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
-import CertificationList from "../../components/CertificationList/CertificationList";
-import AboutLink from "../../components/Links/AboutLink";
+import CertificationsLink from "../../components/Links/CertificationsLink";
 import HomeLink from "../../components/Links/HomeLink";
 import SkillCloud from "../../components/Skills/SkillCloud";
 import styles from "./SkillsPage.module.scss";
@@ -16,12 +15,10 @@ const SkillsPage = () => {
         className={styles.skillsInner}
       >
         <HomeLink {...{ position: "absolute", top: "20px", left: "20px" }} />
-        <AboutLink {...{ position: "absolute", top: "20px", right: "20px" }} />
+        <CertificationsLink {...{ position: "absolute", top: "20px", right: "20px" }} />
         <div className={styles.skillsText}>
-          <h1>Skills & Certfications</h1>
-          <p>Here are some of my certifications and technical skills.</p>
-          <CertificationList />
-          <br />
+          <h1>Skills</h1>
+          <p>Here are some of my technical skills.</p>
           <SkillCloud />
           <p className={styles.tip}>Tip: Feel free to drag around!</p>
         </div>
