@@ -53,3 +53,13 @@
     transition: transform 0.25s ease-out;
   }
 }
+
+@mixin card-hover {
+  transition: all 0.5s ease;
+  &:hover {
+    @media screen and (min-width: $md) {
+      scale: 1.03;
+      background-color: $bg-color-secondary-hover;
+    }
+  }
+}
