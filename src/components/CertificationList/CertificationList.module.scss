@@ -1,14 +1,24 @@
 @import "../../styles/constants.scss";
+@import "../../styles/mixins.scss";
 
 .list {
-  a {
+  .item {
+    @include flex-center(column);
+    background-color: $bg-color-secondary;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    border-radius: 1.5rem;
     font-size: 0.9rem;
     font-weight: 700;
-    color: $text-color-primary-hover;
-    text-decoration: none;
 
-    &:hover {
-      text-decoration: underline;
+    @include card-hover;
+
+    .title {
+      margin: 30px 0;
     }
+  }
+
+  img {
+    height: 200px;
   }
 }

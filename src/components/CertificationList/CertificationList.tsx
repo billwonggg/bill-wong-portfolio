@@ -1,17 +1,18 @@
 import MyCertifications from "../../content/MyCertifications";
+import CredentialButton from "../Buttons/CredentialButton";
 import styles from "./CertificationList.module.scss";
 
 const CertificationList = () => {
   return (
-    <ul className={styles.list}>
+    <div className={styles.list}>
       {MyCertifications.map((certification, i) => (
-        <li key={i}>
-          <a href={certification.url} target="_blank" rel="noopener noreferrer">
-            {certification.name}
-          </a>
-        </li>
+        <div className={styles.item} key={i}>
+          {certification.image}
+          <p className={styles.title}>{certification.name}</p>
+          <CredentialButton url={certification.url} />
+        </div>
       ))}
-    </ul>
+    </div>
   );
 };
 
