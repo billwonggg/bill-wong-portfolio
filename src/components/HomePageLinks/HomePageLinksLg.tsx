@@ -1,5 +1,6 @@
 import React from "react";
 import AboutLink from "../Links/AboutLink";
+import CertificationsLink from "../Links/CertificationsLink";
 import ExperienceLink from "../Links/ExperienceLink";
 import ProjectsLink from "../Links/ProjectsLink";
 import SkillsLink from "../Links/SkillsLink";
@@ -19,6 +20,7 @@ const HomePageLinksLg = () => {
         <ProjectsLink {...linkStyles} />
         <ExperienceLink {...linkStyles} />
         <SkillsLink {...linkStyles} />
+        <CertificationsLink {...linkStyles} />
       </div>
     </div>
   );
