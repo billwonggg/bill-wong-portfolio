@@ -1,0 +1,14 @@
+@import "../../styles/mixins.scss";
+
+.certificationsPage {
+  @include flex-center(column);
+  min-height: var(--app-height);
+}
+
+.certificationsInner {
+  @include page-inner-setup;
+}
+
+.certificationsText {
+  @include page-inner-content;
+}
