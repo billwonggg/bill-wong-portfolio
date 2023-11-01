@@ -12,6 +12,7 @@ import {
   siGooglecloud,
   siHtml5,
   siJavascript,
+  siKubernetes,
   siMicrosoftazure,
   siNodedotjs,
   siPostgresql,
@@ -44,6 +45,7 @@ const MySkills = [
   siExpress,
   siGithub,
   siSpring,
+  siKubernetes,
 ];
 
 export default MySkills;

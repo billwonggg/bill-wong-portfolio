@@ -1,9 +1,9 @@
-import calculator from "../assets/images/calculator.png";
-import developerSite from "../assets/images/developer_site.png";
-import messageSpace from "../assets/images/message_space.png";
-import oldSite from "../assets/images/old_site.png";
-import recipeSearch from "../assets/images/recipe_search.png";
-import smu from "../assets/images/smu.png";
+import calculator from "../assets/images/projects/calculator.png";
+import developerSite from "../assets/images/projects/developer_site.png";
+import messageSpace from "../assets/images/projects/message_space.png";
+import oldSite from "../assets/images/projects/old_site.png";
+import recipeSearch from "../assets/images/projects/recipe_search.png";
+import smu from "../assets/images/projects/smu.png";
 import Project from "../models/Project";
 import { Technology } from "../models/Technology";
 
