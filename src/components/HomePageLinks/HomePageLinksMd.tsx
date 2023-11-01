@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import { HiMenu } from "react-icons/hi";
 import { IoClose } from "react-icons/io5";
 import AboutLink from "../Links/AboutLink";
+import CertificationsLink from "../Links/CertificationsLink";
 import ExperienceLink from "../Links/ExperienceLink";
 import ProjectsLink from "../Links/ProjectsLink";
 import SkillsLink from "../Links/SkillsLink";
@@ -43,6 +44,7 @@ const HomePageLinksMd = () => {
             <ProjectsLink {...linkStyles} />
             <ExperienceLink {...linkStyles} />
             <SkillsLink {...linkStyles} />
+            <CertificationsLink {...linkStyles} />
           </motion.div>
         )}
       </AnimatePresence>
