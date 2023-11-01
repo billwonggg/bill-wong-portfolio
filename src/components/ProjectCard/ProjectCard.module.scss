@@ -7,17 +7,13 @@
   margin: 1.5rem 0;
   border-radius: 2rem;
 
+  @include card-hover;
+
   img {
     width: calc(100% - 20px);
     opacity: 0.8;
     margin: 10px 10px;
-    transition: all 0.5s ease;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    &:hover {
-      @media screen and (min-width: $md) {
-        scale: 1.03;
-      }
-    }
   }
 
   .projectLinks {
