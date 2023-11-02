@@ -18,7 +18,8 @@ const SkillsPage = () => {
         <CertificationsLink {...{ position: "absolute", top: "20px", right: "20px" }} />
         <div className={styles.skillsText}>
           <h1>Skills</h1>
-          <p>Here are some of my technical skills.</p>
+          <p>These are some of my technical skills.</p>
+          <br />
           <SkillCloud />
           <p className={styles.tip}>Tip: Feel free to drag around!</p>
         </div>
