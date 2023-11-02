@@ -1,4 +1,5 @@
 import accenture from "../assets/images/experience/accenture.png";
+import atlassian from "../assets/images/experience/atlassian.png";
 import aws from "../assets/images/experience/aws.png";
 import nab from "../assets/images/experience/nab.png";
 import policyMap from "../assets/images/experience/policy-map.png";
@@ -6,6 +7,17 @@ import Experience from "../models/Experience";
 import { Technology } from "../models/Technology";
 
 const MyExperience: Experience[] = [
+  {
+    title: "Software Engineering Intern",
+    company: <img src={atlassian} alt="Atlassian" style={{ width: "min(75px, 15vw)" }} />,
+    timeline: "Nov 2023 - Feb 2024",
+    description: (
+      <ul>
+        <li>Upcoming frontend internship</li>
+      </ul>
+    ),
+    technologies: [],
+  },
   {
     title: "Software Engineering Intern",
     company: <img src={nab} alt="NAB" style={{ width: "min(80px, 15vw)" }} />,
@@ -35,6 +47,7 @@ const MyExperience: Experience[] = [
       Technology.PostgreSql,
       Technology.Docker,
       Technology.AWS,
+      Technology.Kubernetes,
     ],
   },
   {
@@ -68,8 +81,8 @@ const MyExperience: Experience[] = [
     description: (
       <ul>
         <li>
-          Being selected out of 800 candidates nationwide, worked as a team and created a full stack website to help
-          travellers understand COVID-19 restrictions around the world easily.
+          Created a full stack website to help travellers visualise COVID-19 restrictions around the world. Learned the
+          benefits of serverless computing by using AWS Lambda, DynamoDB, and API Gateway as the backend.
         </li>
         <li>
           Led the front-end team: delegated tasks, initiated discussions, and helped team members review, debug, and
