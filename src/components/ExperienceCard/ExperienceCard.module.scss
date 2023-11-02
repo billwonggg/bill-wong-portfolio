@@ -2,12 +2,7 @@
 @import "../../styles/mixins.scss";
 
 .experienceCard {
-  background-color: $bg-color-secondary;
-  padding: 1.6rem;
-  margin: 1.5rem 0;
-  border-radius: 2rem;
-
-  @include card-hover;
+  @include card-style;
 
   .logoLine {
     position: relative;
@@ -39,12 +34,5 @@
   .experienceLinks {
     @include flex-center(row);
     justify-content: space-evenly;
-  }
-}
-
-@media screen and (max-width: $md) {
-  .experienceCard {
-    padding: 1.2rem;
-    border-radius: 1.5rem;
   }
 }
