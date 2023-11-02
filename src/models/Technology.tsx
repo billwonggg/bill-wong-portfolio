@@ -9,6 +9,7 @@ import {
   SiHtml5,
   SiJavascript,
   SiJest,
+  SiKubernetes,
   SiMicrosoftazure,
   SiMicrosoftpowerpoint,
   SiMui,
@@ -40,4 +41,5 @@ export const Technology: { [key: string]: Badge } = {
   SpringBoot: { name: "Spring Boot", icon: SiSpringboot, color: "#6DB33F" },
   Sass: { name: "Sass", icon: FaSass, color: "#CC6699" },
   TypeScript: { name: "TypeScript", icon: SiTypescript, color: "#3178C6" },
+  Kubernetes: { name: "Kubernetes", icon: SiKubernetes, color: "#326CE5" },
 };
