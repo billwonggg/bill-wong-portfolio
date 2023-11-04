@@ -1,5 +1,4 @@
 import { AnimatePresence } from "framer-motion";
-import { useEffect } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import ParticlesBg from "./components/ParticlesBg/ParticlesBg";
 import AboutPage from "./pages/About/AboutPage";
@@ -9,17 +8,10 @@ import HomePage from "./pages/Home/HomePage";
 import ProjectPage from "./pages/Projects/ProjectPage";
 import SkillsPage from "./pages/Skills/SkillsPage";
 import "./styles/global.scss";
+import { useAppHeight } from "./util/hooks";
 
 const App = () => {
-  const appHeight = () => {
-    document.documentElement.style.setProperty("--app-height", `${window.innerHeight}px`);
-  };
-
-  useEffect(() => appHeight());
-  useEffect(() => {
-    window.addEventListener("resize", appHeight);
-    return () => window.removeEventListener("resize", appHeight);
-  }, []);
+  useAppHeight();
 
   return (
     <BrowserRouter>
