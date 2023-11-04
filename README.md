@@ -1,4 +1,4 @@
-# **Personal Website** - [_Link Here_](https://billw.space)
+# **Personal Website** - [_Link Here_](https://billw.info/)
 
 This is my new developer portfolio website.
 
@@ -17,11 +17,11 @@ I built my [first personal website](https://billwonggg.github.io) using plain HT
 
 ## Preview
 
-> ### Desktop
+### _Desktop_
 
 <img src="./images/desktop.png" width="900px">
 
-> ### Mobile
+### _Mobile_
 
 <div style="width:900px; display: flex; justify-content: space-between; flex-wrap: wrap;"> 
     <img src="./images/mob1.png" width="250px">
