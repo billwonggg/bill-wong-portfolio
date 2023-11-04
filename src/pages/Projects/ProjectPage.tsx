@@ -19,10 +19,8 @@ const ProjectPage = () => {
         <ExperienceLink {...{ position: "absolute", top: "20px", right: "20px" }} />
         <div className={styles.projectsText}>
           <h1>Projects</h1>
-          <p>
-            These are some projects that I have built. Read about the project details in the GitHub
-            link, or visit the website to explore more.
-          </p>
+          <p>These are some projects that I built.</p>
+          <p>Read more about the project in GitHub, and visit the website.</p>
           {MyProjects.map((project, i) => (
             <ProjectCard key={i} {...project} />
           ))}
