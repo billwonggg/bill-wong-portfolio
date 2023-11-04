@@ -6,7 +6,7 @@ const MyHomeProfile: HomeProfile = {
     "I am currently a Software Engineering intern at NAB.",
     "I have a great passion for technology.",
     "I am always eager to learn new skills.",
-    "I like working on full stack personal projects.",
+    "I enjoy working on full stack projects.",
     "I am an aspiring Software Engineer.",
   ],
 };
