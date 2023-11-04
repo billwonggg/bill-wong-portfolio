@@ -25,17 +25,16 @@ const MyExperience: Experience[] = [
     description: (
       <ul>
         <li>
-          Built a web app with React, TypeScript and NAB's UI frameworks for submissions of Suspicious Matter Reports
-          for Anti-Money Laundering and Counter-Terrorism Financing obligations.
+          Built a React TypeScript web app for submissions of Suspicious Matter Reports in line with NAB's Anti-Money
+          Laundering and Counter-Terrorism Financing obligations.
         </li>
         <li>
-          Implemented and applied test driven development for the backend REST API microservice in a dockerised
-          environment using Java Spring Boot and PostgreSQL, and improved code coverage by writing unit and component
-          tests.
+          Applied test driven development for the backend Java microservice, and improved code coverage by writing unit
+          and component tests in a dockerised environment.
         </li>
         <li>
-          Planned and executed production deployment procedures, from API and testing documentation to various quality
-          and compliance checks before deploying to production in AWS.
+          Planned and executed production deployment procedures, documenting steps for deployment and rollback before
+          executing the procedure to production in AWS EKS.
         </li>
       </ul>
     ),
@@ -80,16 +79,17 @@ const MyExperience: Experience[] = [
     ),
     description: (
       <ul>
+        <li>Created a full stack website to help travellers visualise COVID-19 restrictions around the world.</li>
         <li>
-          Created a full stack website to help travellers visualise COVID-19 restrictions around the world. Learned the
-          benefits of serverless computing by using AWS Lambda, DynamoDB, and API Gateway as the backend.
+          Learned the benefits of serverless computing by using AWS Lambda, DynamoDB, and API Gateway as the backend.
         </li>
         <li>
           Led the front-end team: delegated tasks, initiated discussions, and helped team members review, debug, and
           test code.
         </li>
         <li>
-          Implemented the entire map component and worked closely with the UI/UX team to improve the website appearance.
+          Implemented the entire map component and worked closely with the UI/UX members to improve the website
+          appearance.
         </li>
       </ul>
     ),
