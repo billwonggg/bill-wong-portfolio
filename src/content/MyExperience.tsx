@@ -13,7 +13,7 @@ const MyExperience: Experience[] = [
     timeline: "Nov 2023 - Feb 2024",
     description: (
       <ul>
-        <li>Upcoming frontend internship</li>
+        <li>Upcoming internship</li>
       </ul>
     ),
     technologies: [],
@@ -25,8 +25,8 @@ const MyExperience: Experience[] = [
     description: (
       <ul>
         <li>
-          Built a React TypeScript web app for submissions of Suspicious Matter Reports in line with NAB's Anti-Money
-          Laundering and Counter-Terrorism Financing obligations.
+          Worked on a Java microservice and a React TypeScript web app for submissions of Suspicious Matter Reports in
+          line with NAB's Anti-Money Laundering and Counter-Terrorism Financing obligations.
         </li>
         <li>
           Applied test driven development for the backend Java microservice, and improved code coverage by writing unit
