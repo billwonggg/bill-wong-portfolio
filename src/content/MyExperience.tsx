@@ -10,7 +10,7 @@ const MyExperience: Experience[] = [
   {
     title: "Software Engineering Intern",
     company: <img src={atlassian} alt="Atlassian" style={{ width: "min(75px, 15vw)" }} />,
-    timeline: "Nov 2023 - Feb 2024",
+    timeline: "Nov 2023 - Present",
     description: (
       <ul>
         <li>Upcoming internship</li>
@@ -21,7 +21,7 @@ const MyExperience: Experience[] = [
   {
     title: "Software Engineering Intern",
     company: <img src={nab} alt="NAB" style={{ width: "min(80px, 15vw)" }} />,
-    timeline: "Feb 2023 - Present",
+    timeline: "Feb 2023 - Nov 2023",
     description: (
       <ul>
         <li>
