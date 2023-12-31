@@ -13,7 +13,15 @@ const MyExperience: Experience[] = [
     timeline: "Nov 2023 - Present",
     description: (
       <ul>
-        <li>Upcoming internship</li>
+        <li>
+          Implemented Role-Based Access Control (RBAC) authorization for a promotion service using Java Spring framework
+          to ensure precise permissions for users.
+        </li>
+        <li>
+          Collaborated with cross-functional teams to design and implement RBAC protocols, significantly improving the
+          service's scalability and ensuring seamless integration with existing systems.
+        </li>
+        <li>Conducted thorough unit and integration testing of the RBAC implementation using JUnit and Mockito.</li>
       </ul>
     ),
     technologies: [],
