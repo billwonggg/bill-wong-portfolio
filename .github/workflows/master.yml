@@ -1,24 +1,32 @@
-name: Firebase Deployment + Lighthouse Audit
+name: Checks + Deployment + Lighthouse Audit
 
 on:
   push:
-    branches: [master]
+    branches:
+      - "master"
 
 jobs:
-  deploy:
+  build-and-deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repo
         uses: actions/checkout@master
+
       - name: Setup Node
         uses: actions/setup-node@master
         with:
           node-version: 18.x
+
       - name: Install Dependencies
         run: npm ci
+
       - name: Build the Application
         run: npm run build
-      - name: Deployment
+
+      - name: Run Cypress Tests
+        run: npm run test:cypress
+
+      - name: Deployment to Prod
         uses: w9jds/firebase-action@master
         with:
           args: deploy --only hosting
@@ -26,7 +34,7 @@ jobs:
           GCP_SA_KEY: ${{ secrets.GCP_SA_KEY }}
 
   lighthouse:
-    needs: deploy
+    needs: build-and-deploy
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
