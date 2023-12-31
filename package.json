@@ -29,7 +29,7 @@
     "start": "vite",
     "build": "tsc && vite build && react-compress",
     "preview": "vite preview",
-    "test:cypress": "concurrently \"npm start\" \"cypress run\"",
+    "test:cypress": "bash cypress-run.sh",
     "test:cypress:open": "cypress open"
   },
   "eslintConfig": {
