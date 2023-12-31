@@ -1,0 +1,26 @@
+name: Continuous Integration
+
+on:
+  push:
+    branches: "*"
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@master
+
+      - name: Setup Node
+        uses: actions/setup-node@master
+        with:
+          node-version: 18.x
+
+      - name: Install Dependencies
+        run: npm ci
+
+      - name: Build the Application
+        run: npm run build
+
+      - name: Run Cypress Tests
+        run: npm run test:cypress
