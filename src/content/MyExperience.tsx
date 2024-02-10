@@ -10,7 +10,7 @@ const MyExperience: Experience[] = [
   {
     title: "Software Engineering Intern",
     company: <img src={atlassian} alt="Atlassian" style={{ width: "min(75px, 15vw)" }} />,
-    timeline: "Nov 2023 - Present",
+    timeline: "Nov 2023 - Feb 2024",
     description: (
       <ul>
         <li>
@@ -24,7 +24,7 @@ const MyExperience: Experience[] = [
         <li>Conducted thorough unit and integration testing of the RBAC implementation using JUnit and Mockito.</li>
       </ul>
     ),
-    technologies: [],
+    technologies: [Technology.SpringBoot, Technology.Docker, Technology.AWS],
   },
   {
     title: "Software Engineering Intern",
