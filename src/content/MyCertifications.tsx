@@ -1,4 +1,5 @@
 import awsCloudPractitioner from "../assets/images/certifications/aws_cloud_practitioner.png";
+import awsDeveloperAssociate from "../assets/images/certifications/aws_developer_associate.png";
 import awsSAAssociate from "../assets/images/certifications/aws_sol_arch_associate.png";
 import azureFundamentals from "../assets/images/certifications/azure_fundamentals.png";
 import gcp from "../assets/images/certifications/gcp.png";
@@ -7,14 +8,19 @@ import Certification from "../models/Certification";
 
 const MyCertifications: Certification[] = [
   {
-    name: "AWS Certified Cloud Practitioner",
-    url: "https://www.credly.com/badges/1be821a4-78c1-44f2-9542-4deeea4225e3",
-    image: <img src={awsCloudPractitioner} alt="AWS Certified Cloud Practitioner" />,
-  },
-  {
     name: "AWS Certified Solutions Architect - Associate",
     url: "https://www.credly.com/badges/6876050d-161a-4064-955b-fa8f6da829c3",
     image: <img src={awsSAAssociate} alt="AWS Certified Solutions Architect - Associate" />,
+  },
+  {
+    name: "AWS Certified Developer - Associate",
+    url: "https://www.credly.com/badges/d7719957-5864-447f-b9ce-aed472c58b1b",
+    image: <img src={awsDeveloperAssociate} alt="AWS Certified Developer - Associate" />,
+  },
+  {
+    name: "AWS Certified Cloud Practitioner",
+    url: "https://www.credly.com/badges/1be821a4-78c1-44f2-9542-4deeea4225e3",
+    image: <img src={awsCloudPractitioner} alt="AWS Certified Cloud Practitioner" />,
   },
   {
     name: "Microsoft Certified: Azure Fundamentals",
