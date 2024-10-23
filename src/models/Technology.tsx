@@ -1,6 +1,6 @@
 import { FaSass } from "react-icons/fa";
 import {
-  SiAmazonaws,
+  SiAmazonwebservices,
   SiCss3,
   SiDiagramsdotnet,
   SiDocker,
@@ -23,7 +23,7 @@ import {
 import { Badge } from "../components/ToolBadges/ToolBadges";
 
 export const Technology: { [key: string]: Badge } = {
-  AWS: { name: "AWS", icon: SiAmazonaws, color: "#FF9900" },
+  AWS: { name: "AWS", icon: SiAmazonwebservices, color: "#FF9900" },
   Azure: { name: "Azure", icon: SiMicrosoftazure, color: "#0078D4" },
   CSS: { name: "CSS", icon: SiCss3, color: "#1572B6" },
   Docker: { name: "Docker", icon: SiDocker, color: "#2496ED" },
