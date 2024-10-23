@@ -27,7 +27,7 @@ jobs:
         run: npm run test:cypress
 
       - name: Deployment to Prod
-        uses: w9jds/firebase-action@master
+        uses: w9jds/firebase-action@v13.22.1
         with:
           args: deploy --only hosting
         env:
@@ -39,7 +39,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Audit URLs using Lighthouse
-        uses: treosh/lighthouse-ci-action@v11
+        uses: treosh/lighthouse-ci-action@v12
         with:
           urls: https://billw.space
           runs: 3
