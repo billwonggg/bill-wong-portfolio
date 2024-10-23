@@ -3,11 +3,13 @@
   "version": "6.0.0",
   "private": true,
   "dependencies": {
+    "@loadable/component": "^5.16.4",
     "@testing-library/jest-dom": "^6.6.2",
     "@testing-library/react": "^16.0.1",
     "@testing-library/user-event": "^14.5.2",
     "@tsparticles/engine": "^3.5.0",
     "@tsparticles/react": "^3.0.0",
+    "@types/loadable__component": "^5.13.9",
     "@types/node": "^22.7.9",
     "@types/react": "^18.3.12",
     "@types/react-dom": "^18.3.1",
