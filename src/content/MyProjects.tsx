@@ -26,14 +26,7 @@ const MyProjects: Project[] = [
   {
     title: "MessageSpace",
     headline: "A real time messaging web app with rooms.",
-    tools: [
-      Technology.React,
-      Technology.MaterialUI,
-      Technology.SocketIO,
-      Technology.Docker,
-      Technology.Azure,
-      Technology.Express,
-    ],
+    tools: [Technology.React, Technology.MaterialUI, Technology.SocketIO, Technology.Docker, Technology.Express],
     image: <img src={messageSpace} alt="Message Space" />,
     demoUrl: "https://message-space.web.app",
     gitHubUrl: "https://github.com/billwonggg/message-space",
