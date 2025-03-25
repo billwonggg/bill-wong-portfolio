@@ -2,12 +2,10 @@ const MyAbout = () => {
   return (
     <div>
       <h1>About</h1>
-      <p>
-        I'm Bill, a 4th year Computer Science student at UNSW. I have been programming since high school and I love it!
-      </p>
+      <p>I'm Bill, a computer science graduate from UNSW. I have been programming since high school and I love it!</p>
       <p>
         I enjoy spending my spare time learning new technologies and developing new skills. I always try and apply the
-        knowledge I learned to real life projects, just like the one you are looking at right now! 😄
+        knowledge I learned to real life projects, just like the one you are looking at right now!
       </p>
       <br />
       <br />
