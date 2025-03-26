@@ -12,8 +12,10 @@ import {
   SiKotlin,
   SiKubernetes,
   SiMui,
+  SiNextdotjs,
   SiPostgresql,
   SiReact,
+  SiSnowflake,
   SiSocketdotio,
   SiSpringboot,
   SiTypescript,
@@ -40,4 +42,6 @@ export const Technology: { [key: string]: Badge } = {
   TypeScript: { name: "TypeScript", icon: SiTypescript, color: "#3178C6" },
   Kubernetes: { name: "Kubernetes", icon: SiKubernetes, color: "#326CE5" },
   Kotlin: { name: "Kotlin", icon: SiKotlin, color: "#7F52FF" },
+  NextJS: { name: "Next.js", icon: SiNextdotjs, color: "#000000" },
+  Snowflake: { name: "Snowflake", icon: SiSnowflake, color: "#29B5E8" },
 };
