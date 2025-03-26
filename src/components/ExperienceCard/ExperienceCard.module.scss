@@ -1,12 +1,12 @@
-@import "../../styles/constants.scss";
-@import "../../styles/mixins.scss";
+@use "../../styles/constants.scss";
+@use "../../styles/mixins.scss";
 
 .experienceCard {
-  @include card-style;
+  @include mixins.card-style;
 
   .logoLine {
     position: relative;
-    @include flex-center(row);
+    @include mixins.flex-center(row);
     margin: 10px 0;
     width: 100%;
 
@@ -35,7 +35,7 @@
   }
 
   .experienceLinks {
-    @include flex-center(row);
+    @include mixins.flex-center(row);
     justify-content: space-evenly;
   }
 }

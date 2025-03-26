@@ -1,8 +1,9 @@
-@import "../../styles/constants.scss";
-@import "../../styles/mixins.scss";
+@use "sass:color";
+@use "../../styles/constants.scss";
+@use "../../styles/mixins.scss";
 
 .tools {
-  @include flex-center(row);
+  @include mixins.flex-center(row);
   justify-content: flex-start;
   flex-wrap: wrap;
   margin: 0.5rem 0;
@@ -16,11 +17,11 @@
   border-radius: 2rem;
   font-size: 0.8rem;
   font-weight: 700;
-  background-color: lighten($bg-color-primary, 10);
+  background-color: color.adjust(constants.$bg-color-primary, $lightness: 10);
   transition: all 0.5s ease;
 
   &:hover {
-    @media screen and (min-width: $md) {
+    @media screen and (min-width: constants.$md) {
       scale: 1.08;
     }
   }

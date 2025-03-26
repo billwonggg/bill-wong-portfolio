@@ -1,6 +1,6 @@
-@import "../../styles/mixins.scss";
+@use "../../styles/mixins.scss";
 
 .homepage {
-  @include flex-center(column);
+  @include mixins.flex-center(column);
   min-height: var(--app-height);
 }

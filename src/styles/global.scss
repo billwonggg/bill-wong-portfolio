@@ -1,5 +1,5 @@
-@import "./constants.scss";
-@import "./mixins.scss";
+@use "constants.scss";
+@use "mixins.scss";
 
 :root {
   --app-height: 100%;
@@ -12,8 +12,8 @@ html {
   body {
     margin: 0;
     min-height: var(--app-height);
-    color: $text-color-primary;
-    background-color: $bg-color-primary;
+    color: constants.$text-color-primary;
+    background-color: constants.$bg-color-primary;
   }
 
   a {

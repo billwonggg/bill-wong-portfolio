@@ -1,12 +1,12 @@
-@import "../../styles/constants.scss";
-@import "../../styles/mixins.scss";
+@use "../../styles/constants.scss";
+@use "../../styles/mixins.scss";
 
 .open {
   color: black;
 }
 
 .closed {
-  color: $text-color-primary;
+  color: constants.$text-color-primary;
 }
 
 .menu {
@@ -14,7 +14,7 @@
   top: 25px;
   right: 25px;
   font-size: 1.8rem;
-  @include flex-center(column);
+  @include mixins.flex-center(column);
   z-index: 100;
 }
 
@@ -26,7 +26,7 @@
   top: 0;
   left: 0;
   padding: 0px 40px;
-  background-color: $text-color-primary;
+  background-color: constants.$text-color-primary;
   color: black;
   display: flex;
   flex-direction: column;
