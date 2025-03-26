@@ -1,6 +1,7 @@
 import accenture from "../assets/images/experience/accenture.png";
 import atlassian from "../assets/images/experience/atlassian.png";
 import aws from "../assets/images/experience/aws.png";
+import commbank from "../assets/images/experience/commbank.png";
 import nab from "../assets/images/experience/nab.png";
 import policyMap from "../assets/images/experience/policy-map.png";
 import Experience from "../models/Experience";
@@ -8,14 +9,43 @@ import { Technology } from "../models/Technology";
 
 const MyExperience: Experience[] = [
   {
+    title: "Associate Software Engineer",
+    company: <img src={commbank} alt="CommBank" style={{ width: "min(75px, 15vw)" }} />,
+    timeline: "Aug 2024 - Present",
+    description: (
+      <ul>
+        <li>
+          Designed and developed a greenfield full-stack application to modernise existing dashboard and breach workflow
+          systems using Java Spring Boot and Next.js, hosted in serverless containers in AWS ECS.
+        </li>
+        <li>
+          Implemented CI/CD pipelines and AWS infrastructure from scratch, using AWS CDK to deploy infrastructure as
+          code and integrating tools like SonarQube and Snyk into GitHub Actions workflows.
+        </li>
+        <li>
+          Provided production support as part of a DevSecOps initiative, assisting with incident resolution, system
+          monitoring, and performance optimisation to ensure smooth and secure operations in production environments.
+        </li>
+      </ul>
+    ),
+    technologies: [
+      Technology.SpringBoot,
+      Technology.NextJS,
+      Technology.TypeScript,
+      Technology.Snowflake,
+      Technology.Docker,
+      Technology.AWS,
+    ],
+  },
+  {
     title: "Software Engineering Intern",
     company: <img src={atlassian} alt="Atlassian" style={{ width: "min(75px, 15vw)" }} />,
     timeline: "Nov 2023 - Feb 2024",
     description: (
       <ul>
         <li>
-          Implemented Role-Based Access Control (RBAC) authorization for a promotion service using Java Spring framework
-          to ensure precise permissions for users.
+          Implemented Role-Based Access Control (RBAC) authorisation for a promotion service using Java Spring
+          framework, enhancing user permission management and system security.
         </li>
         <li>
           Collaborated with cross-functional teams to design and implement RBAC protocols, significantly improving the
@@ -41,8 +71,8 @@ const MyExperience: Experience[] = [
           and component tests in a dockerised environment.
         </li>
         <li>
-          Planned and executed production deployment procedures, documenting steps for deployment and rollback before
-          executing the procedure to production in AWS EKS.
+          Managed end-to-end production deployments, including CI compliance checks, artifact builds, and deploying
+          services to AWS ECS and RDS while ensuring smooth release cycles.
         </li>
       </ul>
     ),
