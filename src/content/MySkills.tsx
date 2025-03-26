@@ -13,10 +13,12 @@ import {
   siJavascript,
   siKotlin,
   siKubernetes,
+  siNextdotjs,
   siNodedotjs,
   siPostgresql,
   siPython,
   siReact,
+  siSnowflake,
   siSpring,
   siTypescript,
 } from "simple-icons";
@@ -42,6 +44,8 @@ const MySkills = [
   siSpring,
   siKubernetes,
   siKotlin,
+  siSnowflake,
+  siNextdotjs,
 ];
 
 export default MySkills;
