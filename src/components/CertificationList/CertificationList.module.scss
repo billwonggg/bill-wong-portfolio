@@ -1,10 +1,10 @@
-@import "../../styles/constants.scss";
-@import "../../styles/mixins.scss";
+@use "../../styles/constants.scss";
+@use "../../styles/mixins.scss";
 
 .list {
   .item {
-    @include card-style;
-    @include flex-center(column);
+    @include mixins.card-style;
+    @include mixins.flex-center(column);
     font-size: 0.9rem;
     font-weight: 700;
 
@@ -12,7 +12,7 @@
       margin: 30px 0;
       text-align: center;
 
-      @media screen and (max-width: $md) {
+      @media screen and (max-width: constants.$md) {
         margin: 15px 0;
       }
     }
@@ -21,7 +21,7 @@
   img {
     height: 200px;
 
-    @media screen and (max-width: $md) {
+    @media screen and (max-width: constants.$md) {
       height: 160px;
     }
   }

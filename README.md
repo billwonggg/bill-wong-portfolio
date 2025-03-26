@@ -1,4 +1,4 @@
-# **Personal Website** - [_Link Here_](https://billw.space)
+# **Personal Website** - [_Link Here_](https://billw.blog)
 
 This is my new developer portfolio website.
 

@@ -1,4 +1,4 @@
-@import "./constants.scss";
+@use "constants.scss";
 
 @mixin flex-center($orientation) {
   display: flex;
@@ -11,28 +11,28 @@
   @include flex-center(column);
   justify-content: flex-start;
   position: relative;
-  max-width: $inner-max-width;
+  max-width: constants.$inner-max-width;
   min-height: var(--app-height);
   box-sizing: border-box;
   padding: 20px;
-  font-family: $font-text;
+  font-family: constants.$font-text;
 }
 
 @mixin page-inner-content {
   margin-top: 5vw;
   width: 100%;
 
-  @media screen and (max-width: $md) {
+  @media screen and (max-width: constants.$md) {
     margin-top: 12vw;
   }
 }
 
 @mixin link {
-  font-family: $font-links;
+  font-family: constants.$font-links;
   text-decoration: none;
 
   &:hover {
-    color: $text-color-primary-hover;
+    color: constants.$text-color-primary-hover;
   }
 
   &:hover:after {
@@ -48,27 +48,27 @@
     height: 2px;
     bottom: 0;
     left: 0;
-    background-color: $text-color-primary-hover;
+    background-color: constants.$text-color-primary-hover;
     transform-origin: bottom right;
     transition: transform 0.25s ease-out;
   }
 }
 
 @mixin card-style {
-  background-color: $bg-color-secondary;
+  background-color: constants.$bg-color-secondary;
   padding: 1.5rem;
   margin: 1.5rem 0;
   border-radius: 1.5rem;
 
-  @media screen and (max-width: $md) {
+  @media screen and (max-width: constants.$md) {
     padding: 1.2rem;
   }
 
   transition: all 0.5s ease;
   &:hover {
-    @media screen and (min-width: $md) {
+    @media screen and (min-width: constants.$md) {
       scale: 1.03;
-      background-color: $bg-color-secondary-hover;
+      background-color: constants.$bg-color-secondary-hover;
     }
   }
 }

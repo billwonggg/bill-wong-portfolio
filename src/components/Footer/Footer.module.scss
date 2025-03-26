@@ -1,4 +1,4 @@
-@import "../../styles/constants.scss";
+@use "../../styles/constants.scss";
 
 .footer {
   position: absolute;
@@ -9,7 +9,7 @@
 
   p {
     font-size: 0.9rem;
-    font-family: $font-links;
+    font-family: constants.$font-links;
     word-spacing: 0.15rem;
     margin: 0;
   }

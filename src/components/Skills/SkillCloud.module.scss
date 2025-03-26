@@ -1,4 +1,4 @@
-@import "../../styles/constants.scss";
+@use "../../styles/constants.scss";
 
 .cloudContainer {
   background-color: rgb(230, 230, 230);
@@ -7,7 +7,7 @@
   border-radius: 2rem;
   cursor: grab;
 
-  @media (max-width: $sm) {
+  @media (max-width: constants.$sm) {
     border-radius: 1.5rem;
   }
 }

@@ -26,14 +26,7 @@ const MyProjects: Project[] = [
   {
     title: "MessageSpace",
     headline: "A real time messaging web app with rooms.",
-    tools: [
-      Technology.React,
-      Technology.MaterialUI,
-      Technology.SocketIO,
-      Technology.Docker,
-      Technology.Azure,
-      Technology.Express,
-    ],
+    tools: [Technology.React, Technology.MaterialUI, Technology.SocketIO, Technology.Docker, Technology.Express],
     image: <img src={messageSpace} alt="Message Space" />,
     demoUrl: "https://message-space.web.app",
     gitHubUrl: "https://github.com/billwonggg/message-space",
@@ -43,7 +36,7 @@ const MyProjects: Project[] = [
     headline: "An upgraded version of my old personal website. You are currently viewing this website.",
     tools: [Technology.React, Technology.TypeScript, Technology.Sass, Technology.Framer],
     image: <img src={developerSite} alt="New Personal Website" />,
-    demoUrl: "https://billw.space",
+    demoUrl: "https://billw.blog",
     gitHubUrl: "https://github.com/billwonggg/bill-wong-portfolio",
   },
   {

@@ -1,14 +1,14 @@
-@import "../../styles/mixins.scss";
+@use "../../styles/mixins.scss";
 
 .expPage {
-  @include flex-center(column);
+  @include mixins.flex-center(column);
   min-height: var(--app-height);
 }
 
 .expInner {
-  @include page-inner-setup;
+  @include mixins.page-inner-setup;
 }
 
 .experienceText {
-  @include page-inner-content;
+  @include mixins.page-inner-content;
 }

@@ -1,15 +1,15 @@
-@import "../../styles/constants.scss";
+@use "../../styles/constants.scss";
 
 .profileCard {
   width: 80vw;
   position: relative;
   font-size: 2.4rem;
   word-spacing: 0.15rem;
-  font-family: $font-profile-card;
+  font-family: constants.$font-profile-card;
 }
 
 .introName {
-  color: $text-color-primary-hover;
+  color: constants.$text-color-primary-hover;
 }
 
 .typewriter {
@@ -17,13 +17,13 @@
   flex-direction: row;
 }
 
-@media screen and (max-width: $md) {
+@media screen and (max-width: constants.$md) {
   .profileCard {
     font-size: 2.1rem;
   }
 }
 
-@media screen and (max-width: $sm) {
+@media screen and (max-width: constants.$sm) {
   .profileCard {
     font-size: 1.8rem;
   }

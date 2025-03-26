@@ -1,18 +1,18 @@
-@import "../../styles/constants.scss";
+@use "../../styles/constants.scss";
 
 .button {
   margin: 10px;
   text-decoration: none;
-  background-color: $text-color-primary;
-  color: $bg-color-primary;
+  background-color: constants.$text-color-primary;
+  color: constants.$bg-color-primary;
   border-radius: 50px;
   font-size: 1rem;
   padding: 4px 15px;
   font-weight: 700;
-  font-family: $font-links;
+  font-family: constants.$font-links;
 
   &:hover {
-    background-color: $text-color-primary-hover;
+    background-color: constants.$text-color-primary-hover;
   }
 }
 
