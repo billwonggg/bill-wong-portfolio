@@ -9,6 +9,13 @@ import { Technology } from "../models/Technology";
 
 const MyProjects: Project[] = [
   {
+    title: "Travly",
+    headline:
+      "A backend-focused travel planning application built with Kotlin, Spring Boot, and PostgreSQL that allows users to create and manage multi-day trip itineraries. The system supports secure authentication and role-based collaboration, enabling trip owners to invite and manage editors and viewers. Designed with extensibility in mind to support a future React frontend and advanced planning features.",
+    tools: [Technology.SpringBoot, Technology.Kotlin, Technology.PostgreSql, Technology.Docker],
+    gitHubUrl: "https://github.com/travly-app/travly/tree/develop",
+  },
+  {
     title: "Student Management System",
     headline: "A website to manage student data connected to a database.",
     tools: [
@@ -28,7 +35,6 @@ const MyProjects: Project[] = [
     headline: "A real time messaging web app with rooms.",
     tools: [Technology.React, Technology.MaterialUI, Technology.SocketIO, Technology.Docker, Technology.Express],
     image: <img src={messageSpace} alt="Message Space" />,
-    demoUrl: "https://message-space.web.app",
     gitHubUrl: "https://github.com/billwonggg/message-space",
   },
   {

@@ -11,7 +11,7 @@ const MyExperience: Experience[] = [
   {
     title: "Associate Software Engineer",
     company: <img src={commbank} alt="CommBank" style={{ width: "min(75px, 15vw)" }} />,
-    timeline: "Aug 2024 - Present",
+    timeline: "Aug 2024 - Feb 2026",
     description: (
       <ul>
         <li>
