@@ -1,16 +1,16 @@
 set -e
 
-# Run npm start in the background
-npm start &
+# Run npm dev in the background
+npm run dev &
 
-# Capture the process ID (PID) of npm start
+# Capture the process ID (PID) of npm dev
 NPM_START_PID=$!
 
 # Run Cypress tests
 cypress run
 EXIT_CODE=$?
 
-# Stop npm start by killing the process
+# Stop npm dev by killing the process
 kill $NPM_START_PID
 
 # Exit with the Cypress tests' exit code
