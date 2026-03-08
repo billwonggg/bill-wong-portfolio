@@ -1,6 +1,6 @@
 {
   "name": "bill-wong-portfolio",
-  "version": "7.0.0",
+  "version": "7.1.0",
   "private": true,
   "dependencies": {
     "@loadable/component": "^5.16.4",
@@ -28,7 +28,7 @@
     "web-vitals": "^4.2.4"
   },
   "scripts": {
-    "start": "vite",
+    "dev": "vite",
     "build": "tsc && vite build && react-compress",
     "preview": "vite preview",
     "test:cypress": "bash cypress-run.sh",
